@@ -1,0 +1,1811 @@
+PKCS7 Message:
+  CMSG_SIGNED(2)
+  CMSG_SIGNED_DATA_PKCS_1_5_VERSION(1)
+  Content Type: 1.3.6.1.4.1.311.10.1 Certificate Trust List
+
+PKCS7 Message Content:
+================ Begin Nesting Level 1 ================
+Certificate Trust List:
+Version: 1
+Usage Entries: 1
+  [0] 1.3.6.1.4.1.311.12.1.1
+List Identifier: 7c8c4a83d8bdfd8d45600898c92bf839
+ ThisUpdate: 7/19/2026 3:53 PM
+ NextUpdate: EMPTY
+Subject Algorithm:
+    Algorithm ObjectId: 1.3.6.1.4.1.311.12.1.3
+    Algorithm Parameters:
+    05 00
+CTL Entries: 4
+
+Subject Identifier: 44683e4b1db59dcaf145961f7825dfb0a9c03be6c63e0bcaf4497b181b9ffe81
+  4 attributes:
+
+  Attribute[0]: 1.3.6.1.4.1.311.12.2.3
+    Value[0][0], Length = 2
+    0000  82 00                                              ..
+0000: 82 00					; CONTEXT_SPECIFIC[2] (0 Bytes)
+
+  Attribute[1]: 1.3.6.1.4.1.311.12.2.1
+    Value[1][0], Length = 26
+    0000  30 24 1e 0c 00 4f 00 53  00 41 00 74 00 74 00 72   0$...O.S.A.t.t.r
+    0010  02 04 10 01 00 01 04 0e  32 00 3a 00 31 00 30 00   ........2.:.1.0.
+    0020  2e 00 30 00 00 00                                  ..0...
+0000: 30 24					; SEQUENCE (24 Bytes)
+0002:    1e 0c					; UNICODE_STRING (c Bytes)
+0004:    |  00 4f 00 53 00 41 00 74  00 74 00 72              ; .O.S.A.t.t.r
+         |     ; "OSAttr"
+0010:    02 04					; INTEGER (4 Bytes)
+0012:    |  10 01 00 01
+0016:    04 0e					; OCTET_STRING (e Bytes)
+0018:       32 00 3a 00 31 00 30 00  2e 00 30 00 00 00        ; 2.:.1.0...0...
+
+  Attribute[2]: 1.3.6.1.4.1.311.12.2.1
+    Value[2][0], Length = 2e
+    0000  30 2c 1e 08 00 46 00 69  00 6c 00 65 02 04 10 01   0,...F.i.l.e....
+    0010  00 01 04 1a 61 00 63 00  39 00 37 00 71 00 65 00   ....a.c.9.7.q.e.
+    0020  6d 00 75 00 2e 00 69 00  6e 00 66 00 00 00         m.u...i.n.f...
+0000: 30 2c					; SEQUENCE (2c Bytes)
+0002:    1e 08					; UNICODE_STRING (8 Bytes)
+0004:    |  00 46 00 69 00 6c 00 65                           ; .F.i.l.e
+         |     ; "File"
+000c:    02 04					; INTEGER (4 Bytes)
+000e:    |  10 01 00 01
+0012:    04 1a					; OCTET_STRING (1a Bytes)
+0014:       61 00 63 00 39 00 37 00  71 00 65 00 6d 00 75 00  ; a.c.9.7.q.e.m.u.
+0024:       2e 00 69 00 6e 00 66 00  00 00                    ; ..i.n.f...
+
+  Attribute[3]: 1.3.6.1.4.1.311.2.1.4 (SPC_INDIRECT_DATA_OBJID)
+    Value[3][0], Length = 47
+    0000  30 45 30 10 06 0a 2b 06  01 04 01 82 37 02 01 19   0E0...+.....7...
+    0010  a2 02 80 00 30 31 30 0d  06 09 60 86 48 01 65 03   ....010...`.H.e.
+    0020  04 02 01 05 00 04 20 44  68 3e 4b 1d b5 9d ca f1   ...... Dh>K.....
+    0030  45 96 1f 78 25 df b0 a9  c0 3b e6 c6 3e 0b ca f4   E..x%....;..>...
+    0040  49 7b 18 1b 9f fe 81                               I{.....
+0000: 30 45					; SEQUENCE (45 Bytes)
+0002:    30 10					; SEQUENCE (10 Bytes)
+0004:    |  06 0a				; OBJECT_ID (a Bytes)
+0006:    |  |  2b 06 01 04 01 82 37 02  01 19
+         |  |     ; 1.3.6.1.4.1.311.2.1.25 SPC_CAB_DATA_OBJID
+0010:    |  a2 02				; OPTIONAL[2] (2 Bytes)
+0012:    |     80 00				; CONTEXT_SPECIFIC[0] (0 Bytes)
+0014:    30 31					; SEQUENCE (31 Bytes)
+0016:       30 0d				; SEQUENCE (d Bytes)
+0018:       |  06 09				; OBJECT_ID (9 Bytes)
+001a:       |  |  60 86 48 01 65 03 04 02  01
+            |  |     ; 2.16.840.1.101.3.4.2.1 sha256 (sha256NoSign)
+0023:       |  05 00				; NULL (0 Bytes)
+0025:       04 20				; OCTET_STRING (20 Bytes)
+0027:          44 68 3e 4b 1d b5 9d ca  f1 45 96 1f 78 25 df b0  ; Dh>K.....E..x%..
+0037:          a9 c0 3b e6 c6 3e 0b ca  f4 49 7b 18 1b 9f fe 81  ; ..;..>...I{.....
+
+Subject Identifier: 699a61f10baed84c2512d75d6d1edbc96f5a7922
+  3 attributes:
+
+  Attribute[0]: 1.3.6.1.4.1.311.12.2.3
+    Value[0][0], Length = 2
+    0000  80 00                                              ..
+0000: 80 00					; CONTEXT_SPECIFIC[0] (0 Bytes)
+
+  Attribute[1]: 1.3.6.1.4.1.311.12.2.1
+    Value[1][0], Length = 26
+    0000  30 24 1e 0c 00 4f 00 53  00 41 00 74 00 74 00 72   0$...O.S.A.t.t.r
+    0010  02 04 10 01 00 01 04 0e  32 00 3a 00 31 00 30 00   ........2.:.1.0.
+    0020  2e 00 30 00 00 00                                  ..0...
+0000: 30 24					; SEQUENCE (24 Bytes)
+0002:    1e 0c					; UNICODE_STRING (c Bytes)
+0004:    |  00 4f 00 53 00 41 00 74  00 74 00 72              ; .O.S.A.t.t.r
+         |     ; "OSAttr"
+0010:    02 04					; INTEGER (4 Bytes)
+0012:    |  10 01 00 01
+0016:    04 0e					; OCTET_STRING (e Bytes)
+0018:       32 00 3a 00 31 00 30 00  2e 00 30 00 00 00        ; 2.:.1.0...0...
+
+  Attribute[2]: 1.3.6.1.4.1.311.12.2.1
+    Value[2][0], Length = 2e
+    0000  30 2c 1e 08 00 46 00 69  00 6c 00 65 02 04 10 01   0,...F.i.l.e....
+    0010  00 01 04 1a 61 00 63 00  39 00 37 00 71 00 65 00   ....a.c.9.7.q.e.
+    0020  6d 00 75 00 2e 00 73 00  79 00 73 00 00 00         m.u...s.y.s...
+0000: 30 2c					; SEQUENCE (2c Bytes)
+0002:    1e 08					; UNICODE_STRING (8 Bytes)
+0004:    |  00 46 00 69 00 6c 00 65                           ; .F.i.l.e
+         |     ; "File"
+000c:    02 04					; INTEGER (4 Bytes)
+000e:    |  10 01 00 01
+0012:    04 1a					; OCTET_STRING (1a Bytes)
+0014:       61 00 63 00 39 00 37 00  71 00 65 00 6d 00 75 00  ; a.c.9.7.q.e.m.u.
+0024:       2e 00 73 00 79 00 73 00  00 00                    ; ..s.y.s...
+
+Subject Identifier: d52f4120327b285960615d74a733d4b3dd9dadc3821c9e8fd59349b04cf48609
+  4 attributes:
+
+  Attribute[0]: 1.3.6.1.4.1.311.12.2.3
+    Value[0][0], Length = 2
+    0000  80 00                                              ..
+0000: 80 00					; CONTEXT_SPECIFIC[0] (0 Bytes)
+
+  Attribute[1]: 1.3.6.1.4.1.311.12.2.1
+    Value[1][0], Length = 26
+    0000  30 24 1e 0c 00 4f 00 53  00 41 00 74 00 74 00 72   0$...O.S.A.t.t.r
+    0010  02 04 10 01 00 01 04 0e  32 00 3a 00 31 00 30 00   ........2.:.1.0.
+    0020  2e 00 30 00 00 00                                  ..0...
+0000: 30 24					; SEQUENCE (24 Bytes)
+0002:    1e 0c					; UNICODE_STRING (c Bytes)
+0004:    |  00 4f 00 53 00 41 00 74  00 74 00 72              ; .O.S.A.t.t.r
+         |     ; "OSAttr"
+0010:    02 04					; INTEGER (4 Bytes)
+0012:    |  10 01 00 01
+0016:    04 0e					; OCTET_STRING (e Bytes)
+0018:       32 00 3a 00 31 00 30 00  2e 00 30 00 00 00        ; 2.:.1.0...0...
+
+  Attribute[2]: 1.3.6.1.4.1.311.12.2.1
+    Value[2][0], Length = 2e
+    0000  30 2c 1e 08 00 46 00 69  00 6c 00 65 02 04 10 01   0,...F.i.l.e....
+    0010  00 01 04 1a 61 00 63 00  39 00 37 00 71 00 65 00   ....a.c.9.7.q.e.
+    0020  6d 00 75 00 2e 00 73 00  79 00 73 00 00 00         m.u...s.y.s...
+0000: 30 2c					; SEQUENCE (2c Bytes)
+0002:    1e 08					; UNICODE_STRING (8 Bytes)
+0004:    |  00 46 00 69 00 6c 00 65                           ; .F.i.l.e
+         |     ; "File"
+000c:    02 04					; INTEGER (4 Bytes)
+000e:    |  10 01 00 01
+0012:    04 1a					; OCTET_STRING (1a Bytes)
+0014:       61 00 63 00 39 00 37 00  71 00 65 00 6d 00 75 00  ; a.c.9.7.q.e.m.u.
+0024:       2e 00 73 00 79 00 73 00  00 00                    ; ..s.y.s...
+
+  Attribute[3]: 1.3.6.1.4.1.311.2.1.4 (SPC_INDIRECT_DATA_OBJID)
+    Value[3][0], Length = 4f
+    0000  30 4d 30 18 06 0a 2b 06  01 04 01 82 37 02 01 0f   0M0...+.....7...
+    0010  30 0a 03 02 05 a0 a0 04  a2 02 80 00 30 31 30 0d   0...........010.
+    0020  06 09 60 86 48 01 65 03  04 02 01 05 00 04 20 d5   ..`.H.e....... .
+    0030  2f 41 20 32 7b 28 59 60  61 5d 74 a7 33 d4 b3 dd   /A 2{(Y`a]t.3...
+    0040  9d ad c3 82 1c 9e 8f d5  93 49 b0 4c f4 86 09      .........I.L...
+0000: 30 4d					; SEQUENCE (4d Bytes)
+0002:    30 18					; SEQUENCE (18 Bytes)
+0004:    |  06 0a				; OBJECT_ID (a Bytes)
+0006:    |  |  2b 06 01 04 01 82 37 02  01 0f
+         |  |     ; 1.3.6.1.4.1.311.2.1.15 SPC_PE_IMAGE_DATA_OBJID
+0010:    |  30 0a				; SEQUENCE (a Bytes)
+0012:    |     03 02				; BIT_STRING (2 Bytes)
+0014:    |     |  05
+0015:    |     |  a0
+0016:    |     a0 04				; OPTIONAL[0] (4 Bytes)
+0018:    |        a2 02				; OPTIONAL[2] (2 Bytes)
+001a:    |           80 00			; CONTEXT_SPECIFIC[0] (0 Bytes)
+001c:    30 31					; SEQUENCE (31 Bytes)
+001e:       30 0d				; SEQUENCE (d Bytes)
+0020:       |  06 09				; OBJECT_ID (9 Bytes)
+0022:       |  |  60 86 48 01 65 03 04 02  01
+            |  |     ; 2.16.840.1.101.3.4.2.1 sha256 (sha256NoSign)
+002b:       |  05 00				; NULL (0 Bytes)
+002d:       04 20				; OCTET_STRING (20 Bytes)
+002f:          d5 2f 41 20 32 7b 28 59  60 61 5d 74 a7 33 d4 b3  ; ./A 2{(Y`a]t.3..
+003f:          dd 9d ad c3 82 1c 9e 8f  d5 93 49 b0 4c f4 86 09  ; ..........I.L...
+
+Subject Identifier: dac28260905da42360d98c5a56dd1be4fb366c8d
+  3 attributes:
+
+  Attribute[0]: 1.3.6.1.4.1.311.12.2.3
+    Value[0][0], Length = 2
+    0000  82 00                                              ..
+0000: 82 00					; CONTEXT_SPECIFIC[2] (0 Bytes)
+
+  Attribute[1]: 1.3.6.1.4.1.311.12.2.1
+    Value[1][0], Length = 26
+    0000  30 24 1e 0c 00 4f 00 53  00 41 00 74 00 74 00 72   0$...O.S.A.t.t.r
+    0010  02 04 10 01 00 01 04 0e  32 00 3a 00 31 00 30 00   ........2.:.1.0.
+    0020  2e 00 30 00 00 00                                  ..0...
+0000: 30 24					; SEQUENCE (24 Bytes)
+0002:    1e 0c					; UNICODE_STRING (c Bytes)
+0004:    |  00 4f 00 53 00 41 00 74  00 74 00 72              ; .O.S.A.t.t.r
+         |     ; "OSAttr"
+0010:    02 04					; INTEGER (4 Bytes)
+0012:    |  10 01 00 01
+0016:    04 0e					; OCTET_STRING (e Bytes)
+0018:       32 00 3a 00 31 00 30 00  2e 00 30 00 00 00        ; 2.:.1.0...0...
+
+  Attribute[2]: 1.3.6.1.4.1.311.12.2.1
+    Value[2][0], Length = 2e
+    0000  30 2c 1e 08 00 46 00 69  00 6c 00 65 02 04 10 01   0,...F.i.l.e....
+    0010  00 01 04 1a 61 00 63 00  39 00 37 00 71 00 65 00   ....a.c.9.7.q.e.
+    0020  6d 00 75 00 2e 00 69 00  6e 00 66 00 00 00         m.u...i.n.f...
+0000: 30 2c					; SEQUENCE (2c Bytes)
+0002:    1e 08					; UNICODE_STRING (8 Bytes)
+0004:    |  00 46 00 69 00 6c 00 65                           ; .F.i.l.e
+         |     ; "File"
+000c:    02 04					; INTEGER (4 Bytes)
+000e:    |  10 01 00 01
+0012:    04 1a					; OCTET_STRING (1a Bytes)
+0014:       61 00 63 00 39 00 37 00  71 00 65 00 6d 00 75 00  ; a.c.9.7.q.e.m.u.
+0024:       2e 00 69 00 6e 00 66 00  00 00                    ; ..i.n.f...
+Extensions: 5
+    1.3.6.1.4.1.311.12.2.1: Flags = 0, Length = 50
+
+    0000  30 4e 1e 24 00 57 00 64  00 6b 00 41 00 73 00 73   0N.$.W.d.k.A.s.s
+    0010  00 65 00 6d 00 62 00 6c  00 79 00 56 00 65 00 72   .e.m.b.l.y.V.e.r
+    0020  00 73 00 69 00 6f 00 6e  02 04 10 01 00 01 04 20   .s.i.o.n....... 
+    0030  31 00 30 00 2e 00 30 00  2e 00 32 00 38 00 30 00   1.0...0...2.8.0.
+    0040  30 00 30 00 2e 00 31 00  38 00 33 00 39 00 00 00   0.0...1.8.3.9...
+0000: 30 4e					; SEQUENCE (4e Bytes)
+0002:    1e 24					; UNICODE_STRING (24 Bytes)
+0004:    |  00 57 00 64 00 6b 00 41  00 73 00 73 00 65 00 6d  ; .W.d.k.A.s.s.e.m
+0014:    |  00 62 00 6c 00 79 00 56  00 65 00 72 00 73 00 69  ; .b.l.y.V.e.r.s.i
+0024:    |  00 6f 00 6e                                       ; .o.n
+         |     ; "WdkAssemblyVersion"
+0028:    02 04					; INTEGER (4 Bytes)
+002a:    |  10 01 00 01
+002e:    04 20					; OCTET_STRING (20 Bytes)
+0030:       31 00 30 00 2e 00 30 00  2e 00 32 00 38 00 30 00  ; 1.0...0...2.8.0.
+0040:       30 00 30 00 2e 00 31 00  38 00 33 00 39 00 00 00  ; 0.0...1.8.3.9...
+
+    1.3.6.1.4.1.311.12.2.1: Flags = 0, Length = 24
+
+    0000  30 22 1e 04 00 4f 00 53  02 04 10 01 00 01 04 14   0"...O.S........
+    0010  5f 00 76 00 31 00 30 00  30 00 5f 00 58 00 36 00   _.v.1.0.0._.X.6.
+    0020  34 00 00 00                                        4...
+0000: 30 22					; SEQUENCE (22 Bytes)
+0002:    1e 04					; UNICODE_STRING (4 Bytes)
+0004:    |  00 4f 00 53                                       ; .O.S
+         |     ; "OS"
+0008:    02 04					; INTEGER (4 Bytes)
+000a:    |  10 01 00 01
+000e:    04 14					; OCTET_STRING (14 Bytes)
+0010:       5f 00 76 00 31 00 30 00  30 00 5f 00 58 00 36 00  ; _.v.1.0.0._.X.6.
+0020:       34 00 00 00                                       ; 4...
+
+    1.3.6.1.4.1.311.12.2.1: Flags = 0, Length = 42
+
+    0000  30 40 1e 0a 00 48 00 57  00 49 00 44 00 32 02 04   0@...H.W.I.D.2..
+    0010  10 01 00 01 04 2c 70 00  63 00 69 00 5c 00 76 00   .....,p.c.i.\.v.
+    0020  65 00 6e 00 5f 00 38 00  30 00 38 00 36 00 26 00   e.n._.8.0.8.6.&.
+    0030  64 00 65 00 76 00 5f 00  32 00 34 00 32 00 35 00   d.e.v._.2.4.2.5.
+    0040  00 00                                              ..
+0000: 30 40					; SEQUENCE (40 Bytes)
+0002:    1e 0a					; UNICODE_STRING (a Bytes)
+0004:    |  00 48 00 57 00 49 00 44  00 32                    ; .H.W.I.D.2
+         |     ; "HWID2"
+000e:    02 04					; INTEGER (4 Bytes)
+0010:    |  10 01 00 01
+0014:    04 2c					; OCTET_STRING (2c Bytes)
+0016:       70 00 63 00 69 00 5c 00  76 00 65 00 6e 00 5f 00  ; p.c.i.\.v.e.n._.
+0026:       38 00 30 00 38 00 36 00  26 00 64 00 65 00 76 00  ; 8.0.8.6.&.d.e.v.
+0036:       5f 00 32 00 34 00 32 00  35 00 00 00              ; _.2.4.2.5...
+
+    1.3.6.1.4.1.311.12.2.1: Flags = 0, Length = 42
+
+    0000  30 40 1e 0a 00 48 00 57  00 49 00 44 00 31 02 04   0@...H.W.I.D.1..
+    0010  10 01 00 01 04 2c 70 00  63 00 69 00 5c 00 76 00   .....,p.c.i.\.v.
+    0020  65 00 6e 00 5f 00 38 00  30 00 38 00 36 00 26 00   e.n._.8.0.8.6.&.
+    0030  64 00 65 00 76 00 5f 00  32 00 34 00 31 00 35 00   d.e.v._.2.4.1.5.
+    0040  00 00                                              ..
+0000: 30 40					; SEQUENCE (40 Bytes)
+0002:    1e 0a					; UNICODE_STRING (a Bytes)
+0004:    |  00 48 00 57 00 49 00 44  00 31                    ; .H.W.I.D.1
+         |     ; "HWID1"
+000e:    02 04					; INTEGER (4 Bytes)
+0010:    |  10 01 00 01
+0014:    04 2c					; OCTET_STRING (2c Bytes)
+0016:       70 00 63 00 69 00 5c 00  76 00 65 00 6e 00 5f 00  ; p.c.i.\.v.e.n._.
+0026:       38 00 30 00 38 00 36 00  26 00 64 00 65 00 76 00  ; 8.0.8.6.&.d.e.v.
+0036:       5f 00 32 00 34 00 31 00  35 00 00 00              ; _.2.4.1.5...
+
+    1.3.6.1.4.1.311.12.2.1: Flags = 0, Length = 3a
+
+    0000  30 38 1e 14 00 57 00 64  00 6b 00 56 00 65 00 72   08...W.d.k.V.e.r
+    0010  00 73 00 69 00 6f 00 6e  02 04 10 01 00 01 04 1a   .s.i.o.n........
+    0020  31 00 30 00 2e 00 30 00  2e 00 32 00 38 00 30 00   1.0...0...2.8.0.
+    0030  30 00 30 00 2e 00 30 00  00 00                     0.0...0...
+0000: 30 38					; SEQUENCE (38 Bytes)
+0002:    1e 14					; UNICODE_STRING (14 Bytes)
+0004:    |  00 57 00 64 00 6b 00 56  00 65 00 72 00 73 00 69  ; .W.d.k.V.e.r.s.i
+0014:    |  00 6f 00 6e                                       ; .o.n
+         |     ; "WdkVersion"
+0018:    02 04					; INTEGER (4 Bytes)
+001a:    |  10 01 00 01
+001e:    04 1a					; OCTET_STRING (1a Bytes)
+0020:       31 00 30 00 2e 00 30 00  2e 00 32 00 38 00 30 00  ; 1.0...0...2.8.0.
+0030:       30 00 30 00 2e 00 30 00  00 00                    ; 0.0...0...
+
+----------------  End Nesting Level 1  ----------------
+
+Signer Count: 1
+Signing Certificate Index: 0
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=20
+  Issuer: CN="WDKTestCert cvgsc,134289703430450826"
+  NotBefore: 7/19/2026 2:32 PM
+  NotAfter: 7/18/2036 5:00 PM
+  Subject: CN="WDKTestCert cvgsc,134289703430450826"
+  Serial: 1818ba045bacdaa54bf4d01ae59ac085
+  Cert: 9faccb3e846afa6e4c9c2b9f77a92256848b87db
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+  Application[0] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  Chain: da39a3ee5e6b4b0d3255bfef95601890afd80709
+Full chain:
+  Chain: 9faccb3e846afa6e4c9c2b9f77a92256848b87db
+  Issuer: CN="WDKTestCert cvgsc,134289703430450826"
+  NotBefore: 7/19/2026 2:32 PM
+  NotAfter: 7/18/2036 5:00 PM
+  Subject: CN="WDKTestCert cvgsc,134289703430450826"
+  Serial: 1818ba045bacdaa54bf4d01ae59ac085
+  Cert: 9faccb3e846afa6e4c9c2b9f77a92256848b87db
+A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider. 0x800b0109 (-2146762487 CERT_E_UNTRUSTEDROOT)
+------------------------------------
+Verifies against UNTRUSTED root
+
+Signer Info[0]:
+Signature matches Public Key
+CMSG_SIGNER_INFO_PKCS_1_5_VERSION(1)
+CERT_ID_ISSUER_SERIAL_NUMBER(1)
+    Serial Number: 1818ba045bacdaa54bf4d01ae59ac085
+    Issuer: CN=WDKTestCert cvgsc,134289703430450826
+    Subject: CN=WDKTestCert cvgsc,134289703430450826
+Hash Algorithm:
+    Algorithm ObjectId: 2.16.840.1.101.3.4.2.1 sha256 (sha256NoSign)
+    Algorithm Parameters: NULL
+Encrypted Hash Algorithm:
+    Algorithm ObjectId: 1.2.840.113549.1.1.1 RSA
+    Algorithm Parameters: NULL
+Encrypted Hash:
+    0000  25 ff a5 65 c2 c5 a9 12  45 12 56 7a f1 98 cd 4f
+    0010  9c d3 ad b8 43 80 1f 7d  af ad d6 d0 7a 9b d3 f3
+    0020  98 8c 34 72 d1 9b 11 6b  1b 01 3d ef 11 3a 0c 62
+    0030  42 8b 43 59 22 9f 6e 29  ba 53 d8 08 85 f2 9a 27
+    0040  ea a5 cb c7 c6 1e fa 30  4c 0c 46 ad c3 7f 58 96
+    0050  1b 53 dc 0d 5b 99 dd 89  f1 bf f2 03 90 62 f8 63
+    0060  50 06 f4 54 ba 56 c8 d8  ce d4 8d b9 7c 45 fa 25
+    0070  01 7a 85 1d 32 02 39 95  cc 7b b5 0e fb 38 2f 8a
+    0080  04 fd 72 1b d2 57 30 da  28 16 b4 67 ca 00 73 95
+    0090  09 69 4f 66 29 38 b8 e0  45 0f 8a 8e a6 22 c1 9b
+    00a0  64 b2 9d 90 27 9a a0 88  5c 77 75 da c8 de 56 87
+    00b0  24 b3 6a 8b aa de be f5  4f af 60 d9 b2 0d 59 f7
+    00c0  ee 42 cb fe 52 68 4b dc  59 4d 9e eb d4 da 2b c6
+    00d0  6e ad 13 25 b7 aa 9d 3b  f4 a4 a9 c9 43 fc 27 f4
+    00e0  3b c8 63 80 e4 33 dd 2e  63 eb d7 3c af ca da b9
+    00f0  03 ee 11 7f ac 19 0a c2  2c ef 0f 93 8f 12 d1 15
+
+Authenticated Attributes[0]:
+  4 attributes:
+
+  Attribute[0]: 1.3.6.1.4.1.311.2.1.12 (SPC_SP_OPUS_INFO_OBJID)
+    Value[0][0], Length = 2
+    Description: (null)
+
+  Attribute[1]: 1.2.840.113549.1.9.3 (Content Type)
+    Value[1][0], Length = b
+    1.3.6.1.4.1.311.10.1 Certificate Trust List
+
+  Attribute[2]: 1.3.6.1.4.1.311.2.1.11 (SPC_STATEMENT_TYPE_OBJID)
+    Value[2][0], Length = e
+    1.3.6.1.4.1.311.2.1.21 SPC_INDIVIDUAL_SP_KEY_PURPOSE_OBJID
+
+  Attribute[3]: 1.2.840.113549.1.9.4 (Message Digest)
+    Value[3][0], Length = 22
+    Message Digest:
+        5ef03c471667e22195ea1160cfb0b1b5c9877a234ee36faad93f2d0139f97f22
+
+Unauthenticated Attributes[0]:
+  1 attributes:
+
+  Attribute[0]: 1.3.6.1.4.1.311.3.3.1
+    Value[0][0], Length = 1762
+    0000  30 82 17 5e 06 09 2a 86  48 86 f7 0d 01 07 02 a0   0..^..*.H.......
+    0010  82 17 4f 30 82 17 4b 02  01 03 31 0f 30 0d 06 09   ..O0..K...1.0...
+    0020  60 86 48 01 65 03 04 02  01 05 00 30 77 06 0b 2a   `.H.e......0w..*
+    0030  86 48 86 f7 0d 01 09 10  01 04 a0 68 04 66 30 64   .H.........h.f0d
+    0040  02 01 01 06 09 60 86 48  01 86 fd 6c 07 01 30 31   .....`.H...l..01
+    0050  30 0d 06 09 60 86 48 01  65 03 04 02 01 05 00 04   0...`.H.e.......
+    0060  20 ef 19 87 aa 8c 1f 14  9f 7f 59 42 03 f1 1a 3a    .........YB...:
+    0070  4e 65 4d c2 ab d9 5e 31  01 1b a3 92 f4 64 d9 86   NeM...^1.....d..
+    0080  b3 02 10 73 b0 be 96 38  fd cd a1 c5 72 39 e4 d1   ...s...8....r9..
+    0090  8e f8 03 18 0f 32 30 32  36 30 37 32 32 30 30 35   .....20260722005
+    00a0  36 34 31 5a a0 82 13 3a  30 82 06 ed 30 82 04 d5   641Z...:0...0...
+    00b0  a0 03 02 01 02 02 10 0a  80 ef 18 4b 8d f1 05 82   ...........K....
+    00c0  d1 c4 76 a7 95 74 68 30  0d 06 09 2a 86 48 86 f7   ..v..th0...*.H..
+    00d0  0d 01 01 0b 05 00 30 69  31 0b 30 09 06 03 55 04   ......0i1.0...U.
+    00e0  06 13 02 55 53 31 17 30  15 06 03 55 04 0a 13 0e   ...US1.0...U....
+    00f0  44 69 67 69 43 65 72 74  2c 20 49 6e 63 2e 31 41   DigiCert, Inc.1A
+    0100  30 3f 06 03 55 04 03 13  38 44 69 67 69 43 65 72   0?..U...8DigiCer
+    0110  74 20 54 72 75 73 74 65  64 20 47 34 20 54 69 6d   t Trusted G4 Tim
+    0120  65 53 74 61 6d 70 69 6e  67 20 52 53 41 34 30 39   eStamping RSA409
+    0130  36 20 53 48 41 32 35 36  20 32 30 32 35 20 43 41   6 SHA256 2025 CA
+    0140  31 30 1e 17 0d 32 35 30  36 30 34 30 30 30 30 30   10...25060400000
+    0150  30 5a 17 0d 33 36 30 39  30 33 32 33 35 39 35 39   0Z..360903235959
+    0160  5a 30 63 31 0b 30 09 06  03 55 04 06 13 02 55 53   Z0c1.0...U....US
+    0170  31 17 30 15 06 03 55 04  0a 13 0e 44 69 67 69 43   1.0...U....DigiC
+    0180  65 72 74 2c 20 49 6e 63  2e 31 3b 30 39 06 03 55   ert, Inc.1;09..U
+    0190  04 03 13 32 44 69 67 69  43 65 72 74 20 53 48 41   ...2DigiCert SHA
+    01a0  32 35 36 20 52 53 41 34  30 39 36 20 54 69 6d 65   256 RSA4096 Time
+    01b0  73 74 61 6d 70 20 52 65  73 70 6f 6e 64 65 72 20   stamp Responder 
+    01c0  32 30 32 35 20 31 30 82  02 22 30 0d 06 09 2a 86   2025 10.."0...*.
+    01d0  48 86 f7 0d 01 01 01 05  00 03 82 02 0f 00 30 82   H.............0.
+    01e0  02 0a 02 82 02 01 00 d0  46 ac 2d 12 c6 9e d0 ea   ........F.-.....
+    01f0  ae 60 56 b3 2b 57 ba 6f  51 ff 86 70 0a 01 df ca   .`V.+W.oQ..p....
+    0200  37 cc 19 42 30 63 32 a8  99 df 14 d6 71 fb 0b c0   7..B0c2.....q...
+    0210  eb d1 c5 4c 17 70 6c 7c  01 48 e7 8b a6 f3 e7 67   ...L.pl|.H.....g
+    0220  c6 4d fa fa 3c 74 4d bf  a4 fb ce c7 f5 63 f1 37   .M..<tM......c.7
+    0230  21 4f 24 80 d9 1e 10 2a  95 43 ed db cd 66 1e b0   !O$....*.C...f..
+    0240  5b 64 7a 91 2b bd 44 9b  7f e1 08 60 b9 2b 2c a7   [dz.+.D....`.+,.
+    0250  7a a8 99 ee cc af 15 72  7d 03 bd b0 cc 7a 64 05   z......r}....zd.
+    0260  a3 14 36 0e cc 38 bc 48  e8 4f 51 69 4b 9e 1d 34   ..6..8.H.OQiK..4
+    0270  0a 59 7c a6 3a d4 70 25  77 2b 71 34 cf 3d 3d 95   .Y|.:.p%w+q4.==.
+    0280  d4 3f fe 70 59 65 11 2b  e2 1f c6 23 a0 f1 6f 65   .?.pYe.+...#..oe
+    0290  28 ca b3 74 8a 3b 54 0d  51 d1 5d d9 a7 70 e3 8c   (..t.;T.Q.]..p..
+    02a0  03 70 a8 07 f8 94 49 13  94 20 d0 d3 f7 ca 24 b2   .p....I.. ....$.
+    02b0  8b 93 31 81 4e 9c 7a 11  87 af bc e8 bb 5c e7 38   ..1.N.z......\.8
+    02c0  cf 28 75 b9 2a a0 af a5  27 6e 4b 08 70 52 6a 2d   .(u.*...'nK.pRj-
+    02d0  b9 08 5c 83 db 70 d9 80  f7 c3 ac 92 49 2b be de   ..\..p......I+..
+    02e0  a5 3c 0c 3f a7 8a 03 49  16 6b 7a 2c 01 ef 1f 72   .<.?...I.kz,...r
+    02f0  92 b8 d2 e8 64 b7 35 1d  fd 89 34 c5 4b e1 0d 4e   ....d.5...4.K..N
+    0300  a5 bc 9b a4 c7 b8 e9 87  1e 34 0d 0b 7c db 27 a9   .........4..|.'.
+    0310  c9 e9 25 e2 2d 2b f0 e1  29 b3 f1 4d 3b 86 a1 7e   ..%.-+..)..M;..~
+    0320  f0 24 d7 68 44 e4 55 6c  f4 75 55 59 c3 b9 27 87   .$.hD.Ul.uUY..'.
+    0330  55 99 5c e2 c7 80 3b ee  9d da c0 b6 eb f3 d0 3d   U.\...;........=
+    0340  d3 f9 d6 1a 35 cc 1a 7e  c5 42 19 92 94 85 03 cb   ....5..~.B......
+    0350  d6 76 85 28 1c b5 a7 a9  65 37 74 20 b2 14 6d 6b   .v.(....e7t ..mk
+    0360  a1 2a e0 1e 34 87 96 af  31 ca 62 e7 8c 26 d2 2d   .*..4...1.b..&.-
+    0370  9e 3d 90 f9 a4 f2 2c b2  8b 33 43 21 78 ff fd c3   .=....,..3C!x...
+    0380  a0 ad 8e eb 95 1c 93 95  a0 82 7f 0e da 49 44 4e   .............IDN
+    0390  c2 7b bb cc 44 7a 11 a2  7e 02 58 8b ee 88 d3 75   .{..Dz..~.X....u
+    03a0  2e 4f 58 fb 16 7a ea 56  b3 b3 69 0a 15 24 e7 9e   .OX..z.V..i..$..
+    03b0  4a d3 de 95 d6 11 34 c9  92 17 7b e8 22 03 05 b4   J.....4...{."...
+    03c0  d1 a1 f3 ac 37 21 21 cd  9b 42 1a 69 d0 8a 0a 45   ....7!!..B.i...E
+    03d0  1e d8 b9 f0 24 a6 bc 4c  89 70 09 43 55 c2 9a 70   ....$..L.p.CU..p
+    03e0  9f 80 f7 fc fb 79 a7 02  03 01 00 01 a3 82 01 95   .....y..........
+    03f0  30 82 01 91 30 0c 06 03  55 1d 13 01 01 ff 04 02   0...0...U.......
+    0400  30 00 30 1d 06 03 55 1d  0e 04 16 04 14 e4 3b fc   0.0...U.......;.
+    0410  f2 31 ed fd fd d7 f3 91  71 63 19 50 43 cf 61 8c   .1......qc.PC.a.
+    0420  e8 30 1f 06 03 55 1d 23  04 18 30 16 80 14 ef 6f   .0...U.#..0....o
+    0430  53 4a e9 e4 06 7c 7a ca  e2 90 56 f6 2f d4 49 ec   SJ...|z...V./.I.
+    0440  cb 4e 30 0e 06 03 55 1d  0f 01 01 ff 04 04 03 02   .N0...U.........
+    0450  07 80 30 16 06 03 55 1d  25 01 01 ff 04 0c 30 0a   ..0...U.%.....0.
+    0460  06 08 2b 06 01 05 05 07  03 08 30 81 95 06 08 2b   ..+.......0....+
+    0470  06 01 05 05 07 01 01 04  81 88 30 81 85 30 24 06   ..........0..0$.
+    0480  08 2b 06 01 05 05 07 30  01 86 18 68 74 74 70 3a   .+.....0...http:
+    0490  2f 2f 6f 63 73 70 2e 64  69 67 69 63 65 72 74 2e   //ocsp.digicert.
+    04a0  63 6f 6d 30 5d 06 08 2b  06 01 05 05 07 30 02 86   com0]..+.....0..
+    04b0  51 68 74 74 70 3a 2f 2f  63 61 63 65 72 74 73 2e   Qhttp://cacerts.
+    04c0  64 69 67 69 63 65 72 74  2e 63 6f 6d 2f 44 69 67   digicert.com/Dig
+    04d0  69 43 65 72 74 54 72 75  73 74 65 64 47 34 54 69   iCertTrustedG4Ti
+    04e0  6d 65 53 74 61 6d 70 69  6e 67 52 53 41 34 30 39   meStampingRSA409
+    04f0  36 53 48 41 32 35 36 32  30 32 35 43 41 31 2e 63   6SHA2562025CA1.c
+    0500  72 74 30 5f 06 03 55 1d  1f 04 58 30 56 30 54 a0   rt0_..U...X0V0T.
+    0510  52 a0 50 86 4e 68 74 74  70 3a 2f 2f 63 72 6c 33   R.P.Nhttp://crl3
+    0520  2e 64 69 67 69 63 65 72  74 2e 63 6f 6d 2f 44 69   .digicert.com/Di
+    0530  67 69 43 65 72 74 54 72  75 73 74 65 64 47 34 54   giCertTrustedG4T
+    0540  69 6d 65 53 74 61 6d 70  69 6e 67 52 53 41 34 30   imeStampingRSA40
+    0550  39 36 53 48 41 32 35 36  32 30 32 35 43 41 31 2e   96SHA2562025CA1.
+    0560  63 72 6c 30 20 06 03 55  1d 20 04 19 30 17 30 08   crl0 ..U. ..0.0.
+    0570  06 06 67 81 0c 01 04 02  30 0b 06 09 60 86 48 01   ..g.....0...`.H.
+    0580  86 fd 6c 07 01 30 0d 06  09 2a 86 48 86 f7 0d 01   ..l..0...*.H....
+    0590  01 0b 05 00 03 82 02 01  00 65 2a ad f1 1c 27 04   .........e*...'.
+    05a0  b9 ae 60 41 ec d1 08 44  9e 63 40 72 21 f8 e4 f6   ..`A...D.c@r!...
+    05b0  22 4f db 35 8b a5 0a b5  6f 85 11 1a 7c 16 05 d1   "O.5....o...|...
+    05c0  19 0f d8 01 ab d7 cd 68  d9 85 8f a1 21 f3 f6 26   .......h....!..&
+    05d0  44 37 f1 4f b0 b4 93 c1  54 16 a3 61 fa db 21 81   D7.O....T..a..!.
+    05e0  be 0e e8 b8 23 83 c2 bc  7a 50 b8 fa 85 82 aa 75   ....#...zP.....u
+    05f0  3f 30 bf 65 15 f8 a6 f3  ff 72 26 66 52 7b 61 7c   ?0.e.....r&fR{a|
+    0600  01 0f d4 74 a1 4e b6 3e  d8 31 39 aa 3c ef 66 ce   ...t.N.>.19.<.f.
+    0610  c9 20 88 2d d0 60 85 0f  d9 2d c7 42 f1 c6 d4 50   . .-.`...-.B...P
+    0620  ee f9 65 2a 5b 87 5a 22  a4 e8 5c 51 3f 25 0f c4   ..e*[.Z"..\Q?%..
+    0630  00 18 1f 65 72 d6 53 4c  e2 4c de 91 df 28 10 04   ...er.SL.L...(..
+    0640  73 14 05 a0 79 6d da cf  6c 5e 8c 45 8b 34 de 1e   s...ym..l^.E.4..
+    0650  28 6c 43 27 c5 83 97 f1  50 51 29 ed 6e 36 7c d0   (lC'....PQ).n6|.
+    0660  55 37 8b 9e 2d a7 1e 45  ff 42 ab d7 9c d6 fe 62   U7..-..E.B.....b
+    0670  40 c5 93 15 06 b4 c4 da  88 b4 7d c2 3c 54 c6 ed   @.........}.<T..
+    0680  a1 10 26 69 ab 25 35 77  42 1b 5f a5 aa f3 f8 15   ..&i.%5wB._.....
+    0690  ba d0 e8 8c 12 05 79 19  6a 01 cb 84 55 3d 1c 2a   ......y.j...U=.*
+    06a0  c6 fe cc 93 44 b2 e1 01  ec ee ff 72 eb d3 41 ab   ....D......r..A.
+    06b0  27 33 d0 16 70 84 1f 56  39 f3 ae fc 22 09 9f 39   '3..p..V9..."..9
+    06c0  10 4f 0b 52 4a 91 86 84  b7 63 9d 0e 1e 06 98 ed   .O.RJ....c......
+    06d0  3f e5 c1 de 94 02 b6 fe  04 e5 40 92 0d a8 3a fa   ?.........@...:.
+    06e0  25 fc 32 60 75 d2 77 e5  74 f1 7d 49 50 fb c1 e0   %.2`u.w.t.}IP...
+    06f0  82 df 25 d9 8b fb ae 86  a7 70 92 05 71 ba 23 05   ..%......p..q.#.
+    0700  cc 65 45 c1 86 d0 b2 21  a7 a1 af 45 e4 06 80 c8   .eE....!...E....
+    0710  18 c5 06 d5 d5 2d c2 ad  6a 99 cc 1b 75 47 dc 49   .....-..j...uG.I
+    0720  80 a7 f8 ec 27 71 55 17  7f 9d d5 25 43 4e 68 c5   ....'qU....%CNh.
+    0730  8c b6 cd 15 95 16 31 7b  99 ca f8 0b 7e 0c 8f 7a   ......1{....~..z
+    0740  1c 09 57 1c 02 f9 4a 57  d8 c4 9e cb 6b 9e 22 ef   ..W...JW....k.".
+    0750  53 1c 55 64 4f eb a6 d6  fb 21 11 36 96 c9 0a 3c   S.UdO....!.6...<
+    0760  82 60 6d a3 f9 b7 69 c6  8f f5 0b 2e 2e 3d c5 37   .`m...i......=.7
+    0770  01 65 4f 1a b6 e7 e4 f8  43 05 fd c5 ae 88 2e cf   .eO.....C.......
+    0780  38 64 fb e6 a6 8b ea f7  42 bc 79 6c 86 d8 dd 35   8d......B.yl...5
+    0790  73 82 21 48 ec 6a b7 cd  67 30 82 06 b4 30 82 04   s.!H.j..g0...0..
+    07a0  9c a0 03 02 01 02 02 10  0d c7 ac 57 05 ff 21 99   ...........W..!.
+    07b0  2e 40 43 22 0c 3a 49 86  30 0d 06 09 2a 86 48 86   .@C".:I.0...*.H.
+    07c0  f7 0d 01 01 0b 05 00 30  62 31 0b 30 09 06 03 55   .......0b1.0...U
+    07d0  04 06 13 02 55 53 31 15  30 13 06 03 55 04 0a 13   ....US1.0...U...
+    07e0  0c 44 69 67 69 43 65 72  74 20 49 6e 63 31 19 30   .DigiCert Inc1.0
+    07f0  17 06 03 55 04 0b 13 10  77 77 77 2e 64 69 67 69   ...U....www.digi
+    0800  63 65 72 74 2e 63 6f 6d  31 21 30 1f 06 03 55 04   cert.com1!0...U.
+    0810  03 13 18 44 69 67 69 43  65 72 74 20 54 72 75 73   ...DigiCert Trus
+    0820  74 65 64 20 52 6f 6f 74  20 47 34 30 1e 17 0d 32   ted Root G40...2
+    0830  35 30 35 30 37 30 30 30  30 30 30 5a 17 0d 33 38   50507000000Z..38
+    0840  30 31 31 34 32 33 35 39  35 39 5a 30 69 31 0b 30   0114235959Z0i1.0
+    0850  09 06 03 55 04 06 13 02  55 53 31 17 30 15 06 03   ...U....US1.0...
+    0860  55 04 0a 13 0e 44 69 67  69 43 65 72 74 2c 20 49   U....DigiCert, I
+    0870  6e 63 2e 31 41 30 3f 06  03 55 04 03 13 38 44 69   nc.1A0?..U...8Di
+    0880  67 69 43 65 72 74 20 54  72 75 73 74 65 64 20 47   giCert Trusted G
+    0890  34 20 54 69 6d 65 53 74  61 6d 70 69 6e 67 20 52   4 TimeStamping R
+    08a0  53 41 34 30 39 36 20 53  48 41 32 35 36 20 32 30   SA4096 SHA256 20
+    08b0  32 35 20 43 41 31 30 82  02 22 30 0d 06 09 2a 86   25 CA10.."0...*.
+    08c0  48 86 f7 0d 01 01 01 05  00 03 82 02 0f 00 30 82   H.............0.
+    08d0  02 0a 02 82 02 01 00 b4  78 31 d3 0a 98 41 72 be   ........x1...Ar.
+    08e0  3c 46 c0 1c ac 75 db a3  46 68 74 b4 51 17 9d 4d   <F...u..Fht.Q..M
+    08f0  ad 8d 0d 94 b5 99 96 83  2c 54 ed 43 6a 11 8f 35   ........,T.Cj..5
+    0900  17 32 6c 42 aa f9 1b b0  3a 73 e1 a1 fe a9 bc 5e   .2lB....:s.....^
+    0910  2e 1a 3c 23 a8 d8 df 12  f5 22 eb 0b a2 9b 96 da   ..<#....."......
+    0920  a7 ed 25 82 5a 0c db 35  f8 91 fb 67 e4 1d 48 a5   ..%.Z..5...g..H.
+    0930  8c d3 aa 9c 85 43 fe 01  b7 49 80 c4 01 de 1d 83   .....C...I......
+    0940  67 43 1a 97 99 18 a7 be  e3 60 c5 50 5d 26 47 fb   gC.......`.P]&G.
+    0950  ed 2d ae 3e 80 a3 ec 61  fc 04 bb b1 04 6e 40 bd   .-.>...a.....n@.
+    0960  fb 41 76 c3 84 09 2d 54  93 10 6f 32 01 1d 82 41   .Av...-T..o2...A
+    0970  62 0c d6 22 39 3c 78 3a  d8 85 70 c4 a4 a9 3b 45   b.."9<x:..p...;E
+    0980  da 17 d0 cf 7c d0 4a 4b  b6 5a cd c8 7c 34 5e 6f   ....|.JK.Z..|4^o
+    0990  a7 b7 9a 67 60 95 37 1a  6a ba 6c d3 08 d4 8e c6   ...g`.7.j.l.....
+    09a0  6f 92 01 64 ae 22 bd b5  42 89 9b fb 3c d0 58 a8   o..d."..B...<.X.
+    09b0  71 29 35 55 82 d9 94 3c  05 b7 e7 15 14 15 11 26   q)5U...<.......&
+    09c0  0e b3 31 48 d9 6b fc db  09 c9 45 f3 76 d1 54 52   ..1H.k....E.v.TR
+    09d0  de 1a 4b 80 84 78 86 3c  cb d2 1a 68 60 69 3c d5   ..K..x.<...h`i<.
+    09e0  ca 16 27 e2 9d 3e f3 2f  68 1d 16 90 4f f6 a8 7c   ..'..>./h...O..|
+    09f0  49 d2 e7 12 eb 7f 19 c6  a5 35 e2 50 e7 92 2e c2   I........5.P....
+    0a00  72 82 82 cf a7 ae 9b 90  35 f5 66 50 1e 4a 94 25   r.......5.fP.J.%
+    0a10  f7 64 0e 31 e4 71 ca 4b  ea ea 06 f2 96 c5 d0 b2   .d.1.q.K........
+    0a20  40 41 06 71 b2 de d5 bf  00 c3 8c 09 92 15 35 26   @A.q..........5&
+    0a30  b3 ec 15 fc 56 d6 06 a8  bb 7d 32 67 8e ad e1 8f   ....V....}2g....
+    0a40  45 db 41 c7 7c 86 38 ff  ab c7 7a ca 58 31 09 94   E.A.|.8...z.X1..
+    0a50  8a 8b 5e f2 56 9d 8d 2f  e7 27 4f a4 e8 cb ea cd   ..^.V../.'O.....
+    0a60  fa 73 3c 33 b2 e7 2e a0  ab 3b 62 4f de 85 bf ff   .s<3.....;bO....
+    0a70  5b 1f b9 90 ca 88 31 1b  d4 04 3c 7a cf 57 af fb   [.....1...<z.W..
+    0a80  ba 6c 34 e7 60 24 ca 22  c0 ea d4 1b 66 5d 4a 84   .l4.`$."....f]J.
+    0a90  1b 53 6a cc 92 92 e2 43  a6 c6 46 29 d9 6c 8e 0e   .Sj....C..F).l..
+    0aa0  2e ef 41 30 81 66 d5 45  25 f5 59 de 3e ce 81 69   ..A0.f.E%.Y.>..i
+    0ab0  a7 84 5a f8 c9 4a 33 66  da a0 3e b1 d1 54 78 46   ..Z..J3f..>..TxF
+    0ac0  34 a9 58 cf 28 e5 ae 83  f1 ba 5f 9b 80 8b 29 cc   4.X.(....._...).
+    0ad0  ec 1b b6 6b 20 63 53 02  03 01 00 01 a3 82 01 5d   ...k cS........]
+    0ae0  30 82 01 59 30 12 06 03  55 1d 13 01 01 ff 04 08   0..Y0...U.......
+    0af0  30 06 01 01 ff 02 01 00  30 1d 06 03 55 1d 0e 04   0.......0...U...
+    0b00  16 04 14 ef 6f 53 4a e9  e4 06 7c 7a ca e2 90 56   ....oSJ...|z...V
+    0b10  f6 2f d4 49 ec cb 4e 30  1f 06 03 55 1d 23 04 18   ./.I..N0...U.#..
+    0b20  30 16 80 14 ec d7 e3 82  d2 71 5d 64 4c df 2e 67   0........q]dL..g
+    0b30  3f e7 ba 98 ae 1c 0f 4f  30 0e 06 03 55 1d 0f 01   ?......O0...U...
+    0b40  01 ff 04 04 03 02 01 86  30 13 06 03 55 1d 25 04   ........0...U.%.
+    0b50  0c 30 0a 06 08 2b 06 01  05 05 07 03 08 30 77 06   .0...+.......0w.
+    0b60  08 2b 06 01 05 05 07 01  01 04 6b 30 69 30 24 06   .+........k0i0$.
+    0b70  08 2b 06 01 05 05 07 30  01 86 18 68 74 74 70 3a   .+.....0...http:
+    0b80  2f 2f 6f 63 73 70 2e 64  69 67 69 63 65 72 74 2e   //ocsp.digicert.
+    0b90  63 6f 6d 30 41 06 08 2b  06 01 05 05 07 30 02 86   com0A..+.....0..
+    0ba0  35 68 74 74 70 3a 2f 2f  63 61 63 65 72 74 73 2e   5http://cacerts.
+    0bb0  64 69 67 69 63 65 72 74  2e 63 6f 6d 2f 44 69 67   digicert.com/Dig
+    0bc0  69 43 65 72 74 54 72 75  73 74 65 64 52 6f 6f 74   iCertTrustedRoot
+    0bd0  47 34 2e 63 72 74 30 43  06 03 55 1d 1f 04 3c 30   G4.crt0C..U...<0
+    0be0  3a 30 38 a0 36 a0 34 86  32 68 74 74 70 3a 2f 2f   :08.6.4.2http://
+    0bf0  63 72 6c 33 2e 64 69 67  69 63 65 72 74 2e 63 6f   crl3.digicert.co
+    0c00  6d 2f 44 69 67 69 43 65  72 74 54 72 75 73 74 65   m/DigiCertTruste
+    0c10  64 52 6f 6f 74 47 34 2e  63 72 6c 30 20 06 03 55   dRootG4.crl0 ..U
+    0c20  1d 20 04 19 30 17 30 08  06 06 67 81 0c 01 04 02   . ..0.0...g.....
+    0c30  30 0b 06 09 60 86 48 01  86 fd 6c 07 01 30 0d 06   0...`.H...l..0..
+    0c40  09 2a 86 48 86 f7 0d 01  01 0b 05 00 03 82 02 01   .*.H............
+    0c50  00 17 ce fb 16 80 1c fe  07 3d 11 76 71 30 bd be   .........=.vq0..
+    0c60  0b c8 b5 34 a6 7f cd d0  87 c5 88 1a 30 7f 4f c3   ...4........0.O.
+    0c70  9b 5c 06 73 f0 e8 ee 85  4c 63 69 a1 5d 95 e3 0c   .\.s....Lci.]...
+    0c80  d2 50 6b c8 f4 d0 33 6a  84 24 f7 b7 eb 3c 1b 48   .Pk...3j.$...<.H
+    0c90  8f e6 4b cd da 7e c9 77  61 38 fe 21 08 50 13 b8   ..K..~.wa8.!.P..
+    0ca0  d4 fe 45 e3 8f 2b 49 82  79 f4 86 fa d5 ea 1a 96   ..E..+I.y.......
+    0cb0  19 dd eb 2c 05 2d ea f2  72 f6 53 03 3e 34 cb c4   ...,.-..r.S.>4..
+    0cc0  b8 17 7f da f9 9d 63 10  c2 bf 0c c9 bf 6b 11 52   ......c......k.R
+    0cd0  82 84 7c 9f a7 37 9e e6  41 f4 17 c1 c0 04 18 2b   ..|..7..A......+
+    0ce0  d1 47 6a 8a b6 7b 6e 8c  1e f5 58 f6 00 83 03 f2   .Gj..{n...X.....
+    0cf0  58 b2 ae e9 19 da 20 3f  c1 d1 b6 b6 1f 72 d4 8b   X..... ?.....r..
+    0d00  00 d1 01 7c 75 35 ea bd  c9 d3 9a 97 de 42 1d f9   ...|u5.......B..
+    0d10  93 9c ce 08 f9 92 36 ad  54 1f 8d 74 00 d5 64 a3   ......6.T..t..d.
+    0d20  8d fe 09 d9 ae e3 2f 35  86 36 a3 57 f8 31 74 49   ....../5.6.W.1tI
+    0d30  0c c7 53 4a 53 8b 87 41  c2 9f 67 10 2f 04 02 aa   ..SJS..A..g./...
+    0d40  31 5b aa b5 ee bd 33 d2  7a 03 8e ce be 04 5a 3e   1[....3.z.....Z>
+    0d50  cf b6 ca 48 1c 19 5d 34  4d 8a f6 2e bd ed cb da   ...H..]4M.......
+    0d60  88 8a 36 a7 ad 44 77 6a  7c c4 c2 5b f3 66 28 b2   ..6..Dwj|..[.f(.
+    0d70  7d 33 e3 2d b9 c5 46 c8  ec 62 0d fd 3a 55 7c 72   }3.-..F..b..:U|r
+    0d80  2a 43 a2 ae fe a8 d3 63  a8 5c de 1b 17 32 b4 be   *C.....c.\...2..
+    0d90  53 4c b2 f8 65 aa 01 76  a6 e1 3a 16 77 65 10 d4   SL..e..v..:.we..
+    0da0  a6 13 ef 49 19 8c 4e 18  b4 bf 0f 6f 38 34 73 5b   ...I..N....o84s[
+    0db0  a0 31 9c 99 65 df c1 74  72 e2 46 ee e1 01 61 3a   .1..e..tr.F...a:
+    0dc0  6d 31 26 e1 76 11 90 0e  93 97 82 92 14 b1 64 e3   m1&.v.........d.
+    0dd0  77 ac 69 47 aa 1a 41 ff  c3 25 b8 37 b3 a2 82 2c   w.iG..A..%.7...,
+    0de0  f0 25 67 ae 91 cc 88 3d  b0 2f 8d 26 9b 9d fe fe   .%g....=./.&....
+    0df0  3e ed 15 ac 58 28 8a 8b  d1 0e 2c b1 df 31 1d 99   >...X(....,..1..
+    0e00  c8 9f fe c6 10 b1 f7 21  db c6 d9 79 4c f6 ae d6   .......!...yL...
+    0e10  3f f5 30 80 e9 30 fc 74  2d c9 13 7a d8 92 b8 4b   ?.0..0.t-..z...K
+    0e20  50 bc bb 0d cf 74 1b a7  bc 06 5a a6 c8 88 e5 82   P....t....Z.....
+    0e30  9d be 56 ab 12 f7 fc 10  0f bc 85 ca 52 33 d2 c7   ..V.........R3..
+    0e40  26 6c ab c5 a1 6d a3 36  b6 cc d6 90 f6 4f b9 b7   &l...m.6.....O..
+    0e50  5c 30 82 05 8d 30 82 04  75 a0 03 02 01 02 02 10   \0...0..u.......
+    0e60  0e 9b 18 8e f9 d0 2d e7  ef db 50 e2 08 40 18 5a   ......-...P..@.Z
+    0e70  30 0d 06 09 2a 86 48 86  f7 0d 01 01 0c 05 00 30   0...*.H........0
+    0e80  65 31 0b 30 09 06 03 55  04 06 13 02 55 53 31 15   e1.0...U....US1.
+    0e90  30 13 06 03 55 04 0a 13  0c 44 69 67 69 43 65 72   0...U....DigiCer
+    0ea0  74 20 49 6e 63 31 19 30  17 06 03 55 04 0b 13 10   t Inc1.0...U....
+    0eb0  77 77 77 2e 64 69 67 69  63 65 72 74 2e 63 6f 6d   www.digicert.com
+    0ec0  31 24 30 22 06 03 55 04  03 13 1b 44 69 67 69 43   1$0"..U....DigiC
+    0ed0  65 72 74 20 41 73 73 75  72 65 64 20 49 44 20 52   ert Assured ID R
+    0ee0  6f 6f 74 20 43 41 30 1e  17 0d 32 32 30 38 30 31   oot CA0...220801
+    0ef0  30 30 30 30 30 30 5a 17  0d 33 31 31 31 30 39 32   000000Z..3111092
+    0f00  33 35 39 35 39 5a 30 62  31 0b 30 09 06 03 55 04   35959Z0b1.0...U.
+    0f10  06 13 02 55 53 31 15 30  13 06 03 55 04 0a 13 0c   ...US1.0...U....
+    0f20  44 69 67 69 43 65 72 74  20 49 6e 63 31 19 30 17   DigiCert Inc1.0.
+    0f30  06 03 55 04 0b 13 10 77  77 77 2e 64 69 67 69 63   ..U....www.digic
+    0f40  65 72 74 2e 63 6f 6d 31  21 30 1f 06 03 55 04 03   ert.com1!0...U..
+    0f50  13 18 44 69 67 69 43 65  72 74 20 54 72 75 73 74   ..DigiCert Trust
+    0f60  65 64 20 52 6f 6f 74 20  47 34 30 82 02 22 30 0d   ed Root G40.."0.
+    0f70  06 09 2a 86 48 86 f7 0d  01 01 01 05 00 03 82 02   ..*.H...........
+    0f80  0f 00 30 82 02 0a 02 82  02 01 00 bf e6 90 73 68   ..0...........sh
+    0f90  de bb e4 5d 4a 3c 30 22  30 69 33 ec c2 a7 25 2e   ...]J<0"0i3...%.
+    0fa0  c9 21 3d f2 8a d8 59 c2  e1 29 a7 3d 58 ab 76 9a   .!=...Y..).=X.v.
+    0fb0  cd ae 7b 1b 84 0d c4 30  1f f3 1b a4 38 16 eb 56   ..{....0....8..V
+    0fc0  c6 97 6d 1d ab b2 79 f2  ca 11 d2 e4 5f d6 05 3c   ..m...y....._..<
+    0fd0  52 0f 52 1f c6 9e 15 a5  7e be 9f a9 57 16 59 55   R.R.....~...W.YU
+    0fe0  72 af 68 93 70 c2 b2 ba  75 99 6a 73 32 94 d1 10   r.h.p...u.js2...
+    0ff0  44 10 2e df 82 f3 07 84  e6 74 3b 6d 71 e2 2d 0c   D........t;mq.-.
+    1000  1b ee 20 d5 c9 20 1d 63  29 2d ce ec 5e 4e c8 93   .. .. .c)-..^N..
+    1010  f8 21 61 9b 34 eb 05 c6  5e ec 5b 1a bc eb c9 cf   .!a.4...^.[.....
+    1020  cd ac 34 40 5f b1 7a 66  ee 77 c8 48 a8 66 57 57   ..4@_.zf.w.H.fWW
+    1030  9f 54 58 8e 0c 2b b7 4f  a7 30 d9 56 ee ca 7b 5d   .TX..+.O.0.V..{]
+    1040  e3 ad c9 4f 5e e5 35 e7  31 cb da 93 5e dc 8e 8f   ...O^.5.1...^...
+    1050  80 da b6 91 98 40 90 79  c3 78 c7 b6 b1 c4 b5 6a   .....@.y.x.....j
+    1060  18 38 03 10 8d d8 d4 37  a4 2e 05 7d 88 f5 82 3e   .8.....7...}...>
+    1070  10 91 70 ab 55 82 41 32  d7 db 04 73 2a 6e 91 01   ..p.U.A2...s*n..
+    1080  7c 21 4c d4 bc ae 1b 03  75 5d 78 66 d9 3a 31 44   |!L.....u]xf.:1D
+    1090  9a 33 40 bf 08 d7 5a 49  a4 c2 e6 a9 a0 67 dd a4   .3@...ZI.....g..
+    10a0  27 bc a1 4f 39 b5 11 58  17 f7 24 5c 46 8f 64 f7   '..O9..X..$\F.d.
+    10b0  c1 69 88 76 98 76 3d 59  5d 42 76 87 89 97 69 7a   .i.v.v=Y]Bv...iz
+    10c0  48 f0 e0 a2 12 1b 66 9a  74 ca de 4b 1e e7 0e 63   H.....f.t..K...c
+    10d0  ae e6 d4 ef 92 92 3a 9e  3d dc 00 e4 45 25 89 b6   ......:.=...E%..
+    10e0  9a 44 19 2b 7e c0 94 b4  d2 61 6d eb 33 d9 c5 df   .D.+~....am.3...
+    10f0  4b 04 00 cc 7d 1c 95 c3  8f f7 21 b2 b2 11 b7 bb   K...}.....!.....
+    1100  7f f2 d5 8c 70 2c 41 60  aa b1 63 18 44 95 1a 76   ....p,A`..c.D..v
+    1110  62 7e f6 80 b0 fb e8 64  a6 33 d1 89 07 e1 bd b7   b~.....d.3......
+    1120  e6 43 a4 18 b8 a6 77 01  e1 0f 94 0c 21 1d b2 54   .C....w.....!..T
+    1130  29 25 89 6c e5 0e 52 51  47 74 be 26 ac b6 41 75   )%.l..RQGt.&..Au
+    1140  de 7a ac 5f 8d 3f c9 bc  d3 41 11 12 5b e5 10 50   .z._.?...A..[..P
+    1150  eb 31 c5 ca 72 16 22 09  df 7c 4c 75 3f 63 ec 21   .1..r."..|Lu?c.!
+    1160  5f c4 20 51 6b 6f b1 ab  86 8b 4f c2 d6 45 5f 9d   _. Qko....O..E_.
+    1170  20 fc a1 1e c5 c0 8f a2  b1 7e 0a 26 99 f5 e4 69    ........~.&...i
+    1180  2f 98 1d 2d f5 d9 a9 b2  1d e5 1b 02 03 01 00 01   /..-............
+    1190  a3 82 01 3a 30 82 01 36  30 0f 06 03 55 1d 13 01   ...:0..60...U...
+    11a0  01 ff 04 05 30 03 01 01  ff 30 1d 06 03 55 1d 0e   ....0....0...U..
+    11b0  04 16 04 14 ec d7 e3 82  d2 71 5d 64 4c df 2e 67   .........q]dL..g
+    11c0  3f e7 ba 98 ae 1c 0f 4f  30 1f 06 03 55 1d 23 04   ?......O0...U.#.
+    11d0  18 30 16 80 14 45 eb a2  af f4 92 cb 82 31 2d 51   .0...E.......1-Q
+    11e0  8b a7 a7 21 9d f3 6d c8  0f 30 0e 06 03 55 1d 0f   ...!..m..0...U..
+    11f0  01 01 ff 04 04 03 02 01  86 30 79 06 08 2b 06 01   .........0y..+..
+    1200  05 05 07 01 01 04 6d 30  6b 30 24 06 08 2b 06 01   ......m0k0$..+..
+    1210  05 05 07 30 01 86 18 68  74 74 70 3a 2f 2f 6f 63   ...0...http://oc
+    1220  73 70 2e 64 69 67 69 63  65 72 74 2e 63 6f 6d 30   sp.digicert.com0
+    1230  43 06 08 2b 06 01 05 05  07 30 02 86 37 68 74 74   C..+.....0..7htt
+    1240  70 3a 2f 2f 63 61 63 65  72 74 73 2e 64 69 67 69   p://cacerts.digi
+    1250  63 65 72 74 2e 63 6f 6d  2f 44 69 67 69 43 65 72   cert.com/DigiCer
+    1260  74 41 73 73 75 72 65 64  49 44 52 6f 6f 74 43 41   tAssuredIDRootCA
+    1270  2e 63 72 74 30 45 06 03  55 1d 1f 04 3e 30 3c 30   .crt0E..U...>0<0
+    1280  3a a0 38 a0 36 86 34 68  74 74 70 3a 2f 2f 63 72   :.8.6.4http://cr
+    1290  6c 33 2e 64 69 67 69 63  65 72 74 2e 63 6f 6d 2f   l3.digicert.com/
+    12a0  44 69 67 69 43 65 72 74  41 73 73 75 72 65 64 49   DigiCertAssuredI
+    12b0  44 52 6f 6f 74 43 41 2e  63 72 6c 30 11 06 03 55   DRootCA.crl0...U
+    12c0  1d 20 04 0a 30 08 30 06  06 04 55 1d 20 00 30 0d   . ..0.0...U. .0.
+    12d0  06 09 2a 86 48 86 f7 0d  01 01 0c 05 00 03 82 01   ..*.H...........
+    12e0  01 00 70 a0 bf 43 5c 55  e7 38 5f a0 a3 74 1b 3d   ..p..C\U.8_..t.=
+    12f0  b6 16 d7 f7 bf 57 07 bd  9a ac a1 87 2c ec 85 5e   .....W......,..^
+    1300  a9 1a bb 22 f8 87 1a 69  54 22 ed a4 88 77 6d bd   ..."...iT"...wm.
+    1310  1a 14 f4 13 4a 7a 2f 2d  b7 38 ef f4 ff 80 b9 f8   ....Jz/-.8......
+    1320  a1 f7 f2 72 de 24 bc 52  03 c8 4e d0 2a de fa 2d   ...r.$.R..N.*..-
+    1330  56 cf f9 f4 f7 ac 30 7a  9a 8b b2 5e d4 cf d1 43   V.....0z...^...C
+    1340  44 9b 43 21 eb 96 72 a1  48 b4 99 cb 9d 4f a7 06   D.C!..r.H....O..
+    1350  03 13 77 27 44 d4 e7 7f  e8 59 a8 f0 bf 2f 0b a6   ..w'D....Y.../..
+    1360  e9 f2 34 3c ec f7 03 c7  87 a8 d2 4c 40 19 35 46   ..4<.......L@.5F
+    1370  6a 69 54 b0 b8 a1 56 8e  ec a4 d5 3d e8 b1 dc fd   jiT...V....=....
+    1380  1c d8 f4 77 5a 5c 54 8c  6f ef a1 50 3d fc 76 09   ...wZ\T.o..P=.v.
+    1390  68 84 9f 6f ca db 20 8d  35 60 1c 02 03 cb 20 b0   h..o.. .5`.... .
+    13a0  ac 58 a0 0e 40 63 c5 98  22 c1 b2 59 f5 55 6b cf   .X..@c.."..Y.Uk.
+    13b0  27 ab 6c 76 ce 6f 23 2d  f4 7e 71 6a 23 6b 22 ff   '.lv.o#-.~qj#k".
+    13c0  12 b8 54 2d 27 7e d8 3a  d9 f0 b6 87 96 fd 5b d1   ..T-'~.:......[.
+    13d0  5c ac 18 c3 4d 9f 73 b7  01 a9 9f 57 aa 5e 28 e2   \...M.s....W.^(.
+    13e0  b9 94 31 82 03 7c 30 82  03 78 02 01 01 30 7d 30   ..1..|0..x...0}0
+    13f0  69 31 0b 30 09 06 03 55  04 06 13 02 55 53 31 17   i1.0...U....US1.
+    1400  30 15 06 03 55 04 0a 13  0e 44 69 67 69 43 65 72   0...U....DigiCer
+    1410  74 2c 20 49 6e 63 2e 31  41 30 3f 06 03 55 04 03   t, Inc.1A0?..U..
+    1420  13 38 44 69 67 69 43 65  72 74 20 54 72 75 73 74   .8DigiCert Trust
+    1430  65 64 20 47 34 20 54 69  6d 65 53 74 61 6d 70 69   ed G4 TimeStampi
+    1440  6e 67 20 52 53 41 34 30  39 36 20 53 48 41 32 35   ng RSA4096 SHA25
+    1450  36 20 32 30 32 35 20 43  41 31 02 10 0a 80 ef 18   6 2025 CA1......
+    1460  4b 8d f1 05 82 d1 c4 76  a7 95 74 68 30 0d 06 09   K......v..th0...
+    1470  60 86 48 01 65 03 04 02  01 05 00 a0 81 d1 30 1a   `.H.e.........0.
+    1480  06 09 2a 86 48 86 f7 0d  01 09 03 31 0d 06 0b 2a   ..*.H......1...*
+    1490  86 48 86 f7 0d 01 09 10  01 04 30 1c 06 09 2a 86   .H........0...*.
+    14a0  48 86 f7 0d 01 09 05 31  0f 17 0d 32 36 30 37 32   H......1...26072
+    14b0  32 30 30 35 36 34 31 5a  30 2b 06 0b 2a 86 48 86   2005641Z0+..*.H.
+    14c0  f7 0d 01 09 10 02 0c 31  1c 30 1a 30 18 30 16 04   .......1.0.0.0..
+    14d0  14 dd 62 30 ac 86 0a 2d  30 6b da 38 b1 68 79 52   ..b0...-0k.8.hyR
+    14e0  30 07 fb 41 7e 30 2f 06  09 2a 86 48 86 f7 0d 01   0..A~0/..*.H....
+    14f0  09 04 31 22 04 20 b2 df  72 0b 73 c5 d1 bd eb 33   ..1". ..r.s....3
+    1500  38 bc f5 06 aa 14 a7 14  89 90 47 17 bc 7a c5 6d   8.........G..z.m
+    1510  2c 3e 1a 8c 0a 1c 30 37  06 0b 2a 86 48 86 f7 0d   ,>....07..*.H...
+    1520  01 09 10 02 2f 31 28 30  26 30 24 30 22 04 20 4a   ..../1(0&0$0". J
+    1530  a0 3f a2 2c d7 5c 84 c5  5c 93 8f 82 8e 67 6b 9c   .?.,.\..\....gk.
+    1540  ae ca b3 3f e3 6d 26 9a  a3 34 f1 46 11 0a 33 30   ...?.m&..4.F..30
+    1550  0d 06 09 2a 86 48 86 f7  0d 01 01 01 05 00 04 82   ...*.H..........
+    1560  02 00 1e c5 28 d3 89 45  8e 81 32 57 66 03 84 49   ....(..E..2Wf..I
+    1570  fe b5 2a 00 1a dd 3f e9  2c a3 e1 ad 22 b7 14 44   ..*...?.,..."..D
+    1580  f8 ab bc fb 1f 0d 3c 8a  98 7d 9e 01 33 b0 7e 22   ......<..}..3.~"
+    1590  74 83 14 2b 9d 14 fe 18  48 62 23 f2 a3 57 0c e7   t..+....Hb#..W..
+    15a0  56 b0 68 da 52 5a 25 d1  d5 2c fe 68 5b 19 05 f9   V.h.RZ%..,.h[...
+    15b0  99 9e 9f d5 a2 40 b6 0d  18 b1 d4 9c 83 25 50 b8   .....@.......%P.
+    15c0  fd ca 8d 31 98 01 c0 57  49 37 fd c7 9d 8c 74 91   ...1...WI7....t.
+    15d0  ac 66 0a a6 62 41 cb 64  31 0c 1e d6 49 7c cf ec   .f..bA.d1...I|..
+    15e0  51 64 51 c8 af 6f b4 05  83 c9 af 21 99 69 ed d5   QdQ..o.....!.i..
+    15f0  de 7a 88 f0 48 b6 2a b9  1c 84 5e 4d b6 be 6a ab   .z..H.*...^M..j.
+    1600  58 72 1d ed f4 74 f8 66  fd c4 4d 39 20 a5 ed 88   Xr...t.f..M9 ...
+    1610  9f ed 49 f3 49 ea ef 4e  62 82 b6 f3 b5 b3 75 6c   ..I.I..Nb.....ul
+    1620  42 ac cb f2 e0 13 d3 19  9e 5c 81 46 a6 66 06 b4   B........\.F.f..
+    1630  48 41 15 2c d3 60 09 ab  2e d0 fb 42 23 b7 d9 b0   HA.,.`.....B#...
+    1640  2c e3 59 8a 5d ee 60 34  90 cf 49 1d 5a 45 72 be   ,.Y.].`4..I.ZEr.
+    1650  4f 03 9c 0c 1c d7 4a 8f  d4 8b f8 e2 e3 46 76 2e   O.....J......Fv.
+    1660  e3 a8 0a e5 ec 66 37 ca  f0 38 e5 11 b0 7d a5 87   .....f7..8...}..
+    1670  98 e9 5f 88 ce 12 a3 6a  f8 62 4f 84 f0 14 d9 7e   .._....j.bO....~
+    1680  88 be 3c e3 17 db 39 21  f6 80 f0 e8 ae ac 19 d4   ..<...9!........
+    1690  82 1f f1 5e cc 3f 81 5f  3b e8 2b 09 0d cd 31 5d   ...^.?._;.+...1]
+    16a0  5c 2c 55 55 f5 b9 b4 74  60 54 78 c9 e1 f8 58 ae   \,UU...t`Tx...X.
+    16b0  62 69 d8 21 e2 b7 6c a5  09 0d 7d c7 e8 c4 0a 42   bi.!..l...}....B
+    16c0  e7 6b 4e 45 20 3d 07 09  66 a8 ad 1f 47 25 dc fb   .kNE =..f...G%..
+    16d0  21 eb cc f7 7b 29 2d a1  e6 3f 13 c1 d4 61 d2 f4   !...{)-..?...a..
+    16e0  15 28 7c 29 6d a6 db ee  a6 43 a8 44 15 26 32 d9   .(|)m....C.D.&2.
+    16f0  89 f3 87 b7 9e 48 44 99  e5 c0 f5 ea fe bc d7 82   .....HD.........
+    1700  6e 5b ba eb b7 c7 f4 4f  70 38 52 63 ce 4c f6 8f   n[.....Op8Rc.L..
+    1710  4d 0d 1b 18 14 c7 27 bf  7b ff e4 31 eb 75 50 91   M.....'.{..1.uP.
+    1720  87 5d bf e9 26 60 5b 50  74 0b 7f c7 97 b4 6d 06   .]..&`[Pt.....m.
+    1730  2b 87 ef 3a 78 ef f8 31  eb 32 32 86 a7 c0 08 56   +..:x..1.22....V
+    1740  02 a8 22 d8 53 a2 01 ce  a6 9f b0 65 06 a3 54 4c   ..".S......e..TL
+    1750  4f c9 f3 de d0 2a 7f d0  35 41 e3 5c 1c bb 4c 6d   O....*..5A.\..Lm
+    1760  08 7a                                              .z
+0000: 30 82 17 5e				; SEQUENCE (175e Bytes)
+0004:    06 09					; OBJECT_ID (9 Bytes)
+0006:    |  2a 86 48 86 f7 0d 01 07  02
+         |     ; 1.2.840.113549.1.7.2 PKCS 7 Signed
+000f:    a0 82 17 4f				; OPTIONAL[0] (174f Bytes)
+0013:       30 82 17 4b				; SEQUENCE (174b Bytes)
+0017:          02 01				; INTEGER (1 Bytes)
+0019:          |  03
+001a:          31 0f				; SET (f Bytes)
+001c:          |  30 0d				; SEQUENCE (d Bytes)
+001e:          |     06 09			; OBJECT_ID (9 Bytes)
+0020:          |     |  60 86 48 01 65 03 04 02  01
+               |     |     ; 2.16.840.1.101.3.4.2.1 sha256 (sha256NoSign)
+0029:          |     05 00			; NULL (0 Bytes)
+002b:          30 77				; SEQUENCE (77 Bytes)
+002d:          |  06 0b				; OBJECT_ID (b Bytes)
+002f:          |  |  2a 86 48 86 f7 0d 01 09  10 01 04
+               |  |     ; 1.2.840.113549.1.9.16.1.4
+003a:          |  a0 68				; OPTIONAL[0] (68 Bytes)
+003c:          |     04 66			; OCTET_STRING (66 Bytes)
+003e:          |        30 64			; SEQUENCE (64 Bytes)
+0040:          |           02 01		; INTEGER (1 Bytes)
+0042:          |           |  01
+0043:          |           06 09		; OBJECT_ID (9 Bytes)
+0045:          |           |  60 86 48 01 86 fd 6c 07  01
+               |           |     ; 2.16.840.1.114412.7.1
+004e:          |           30 31		; SEQUENCE (31 Bytes)
+0050:          |           |  30 0d		; SEQUENCE (d Bytes)
+0052:          |           |  |  06 09		; OBJECT_ID (9 Bytes)
+0054:          |           |  |  |  60 86 48 01 65 03 04 02  01
+               |           |  |  |     ; 2.16.840.1.101.3.4.2.1 sha256 (sha256NoSign)
+005d:          |           |  |  05 00		; NULL (0 Bytes)
+005f:          |           |  04 20		; OCTET_STRING (20 Bytes)
+0061:          |           |     ef 19 87 aa 8c 1f 14 9f  7f 59 42 03 f1 1a 3a 4e  ; .........YB...:N
+0071:          |           |     65 4d c2 ab d9 5e 31 01  1b a3 92 f4 64 d9 86 b3  ; eM...^1.....d...
+0081:          |           02 10		; INTEGER (10 Bytes)
+0083:          |           |  73 b0 be 96 38 fd cd a1  c5 72 39 e4 d1 8e f8 03
+0093:          |           18 0f		; GENERALIZED_TIME (f Bytes)
+0095:          |              32 30 32 36 30 37 32 32  30 30 35 36 34 31 5a     ; 20260722005641Z
+               |                 ;  7/21/2026 5:56 PM
+00a4:          a0 82 13 3a			; OPTIONAL[0] (133a Bytes)
+00a8:          |  30 82 06 ed			; SEQUENCE (6ed Bytes)
+00ac:          |  |  30 82 04 d5		; SEQUENCE (4d5 Bytes)
+00b0:          |  |  |  a0 03			; OPTIONAL[0] (3 Bytes)
+00b2:          |  |  |  |  02 01		; INTEGER (1 Bytes)
+00b4:          |  |  |  |     02
+00b5:          |  |  |  02 10			; INTEGER (10 Bytes)
+00b7:          |  |  |  |  0a 80 ef 18 4b 8d f1 05  82 d1 c4 76 a7 95 74 68
+00c7:          |  |  |  30 0d			; SEQUENCE (d Bytes)
+00c9:          |  |  |  |  06 09		; OBJECT_ID (9 Bytes)
+00cb:          |  |  |  |  |  2a 86 48 86 f7 0d 01 01  0b
+               |  |  |  |  |     ; 1.2.840.113549.1.1.11 sha256RSA
+00d4:          |  |  |  |  05 00		; NULL (0 Bytes)
+00d6:          |  |  |  30 69			; SEQUENCE (69 Bytes)
+00d8:          |  |  |  |  31 0b		; SET (b Bytes)
+00da:          |  |  |  |  |  30 09		; SEQUENCE (9 Bytes)
+00dc:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+00de:          |  |  |  |  |     |  55 04 06
+               |  |  |  |  |     |     ; 2.5.4.6 Country/Region (C)
+00e1:          |  |  |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+00e3:          |  |  |  |  |        55 53                                             ; US
+               |  |  |  |  |           ; "US"
+00e5:          |  |  |  |  31 17		; SET (17 Bytes)
+00e7:          |  |  |  |  |  30 15		; SEQUENCE (15 Bytes)
+00e9:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+00eb:          |  |  |  |  |     |  55 04 0a
+               |  |  |  |  |     |     ; 2.5.4.10 Organization (O)
+00ee:          |  |  |  |  |     13 0e		; PRINTABLE_STRING (e Bytes)
+00f0:          |  |  |  |  |        44 69 67 69 43 65 72 74  2c 20 49 6e 63 2e        ; DigiCert, Inc.
+               |  |  |  |  |           ; "DigiCert, Inc."
+00fe:          |  |  |  |  31 41		; SET (41 Bytes)
+0100:          |  |  |  |     30 3f		; SEQUENCE (3f Bytes)
+0102:          |  |  |  |        06 03		; OBJECT_ID (3 Bytes)
+0104:          |  |  |  |        |  55 04 03
+               |  |  |  |        |     ; 2.5.4.3 Common Name (CN)
+0107:          |  |  |  |        13 38		; PRINTABLE_STRING (38 Bytes)
+0109:          |  |  |  |           44 69 67 69 43 65 72 74  20 54 72 75 73 74 65 64  ; DigiCert Trusted
+0119:          |  |  |  |           20 47 34 20 54 69 6d 65  53 74 61 6d 70 69 6e 67  ;  G4 TimeStamping
+0129:          |  |  |  |           20 52 53 41 34 30 39 36  20 53 48 41 32 35 36 20  ;  RSA4096 SHA256 
+0139:          |  |  |  |           32 30 32 35 20 43 41 31                           ; 2025 CA1
+               |  |  |  |              ; "DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1"
+0141:          |  |  |  30 1e			; SEQUENCE (1e Bytes)
+0143:          |  |  |  |  17 0d		; UTC_TIME (d Bytes)
+0145:          |  |  |  |  |  32 35 30 36 30 34 30 30  30 30 30 30 5a           ; 250604000000Z
+               |  |  |  |  |     ;  6/3/2025 5:00 PM
+0152:          |  |  |  |  17 0d		; UTC_TIME (d Bytes)
+0154:          |  |  |  |     33 36 30 39 30 33 32 33  35 39 35 39 5a           ; 360903235959Z
+               |  |  |  |        ;  9/3/2036 4:59 PM
+0161:          |  |  |  30 63			; SEQUENCE (63 Bytes)
+0163:          |  |  |  |  31 0b		; SET (b Bytes)
+0165:          |  |  |  |  |  30 09		; SEQUENCE (9 Bytes)
+0167:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0169:          |  |  |  |  |     |  55 04 06
+               |  |  |  |  |     |     ; 2.5.4.6 Country/Region (C)
+016c:          |  |  |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+016e:          |  |  |  |  |        55 53                                             ; US
+               |  |  |  |  |           ; "US"
+0170:          |  |  |  |  31 17		; SET (17 Bytes)
+0172:          |  |  |  |  |  30 15		; SEQUENCE (15 Bytes)
+0174:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0176:          |  |  |  |  |     |  55 04 0a
+               |  |  |  |  |     |     ; 2.5.4.10 Organization (O)
+0179:          |  |  |  |  |     13 0e		; PRINTABLE_STRING (e Bytes)
+017b:          |  |  |  |  |        44 69 67 69 43 65 72 74  2c 20 49 6e 63 2e        ; DigiCert, Inc.
+               |  |  |  |  |           ; "DigiCert, Inc."
+0189:          |  |  |  |  31 3b		; SET (3b Bytes)
+018b:          |  |  |  |     30 39		; SEQUENCE (39 Bytes)
+018d:          |  |  |  |        06 03		; OBJECT_ID (3 Bytes)
+018f:          |  |  |  |        |  55 04 03
+               |  |  |  |        |     ; 2.5.4.3 Common Name (CN)
+0192:          |  |  |  |        13 32		; PRINTABLE_STRING (32 Bytes)
+0194:          |  |  |  |           44 69 67 69 43 65 72 74  20 53 48 41 32 35 36 20  ; DigiCert SHA256 
+01a4:          |  |  |  |           52 53 41 34 30 39 36 20  54 69 6d 65 73 74 61 6d  ; RSA4096 Timestam
+01b4:          |  |  |  |           70 20 52 65 73 70 6f 6e  64 65 72 20 32 30 32 35  ; p Responder 2025
+01c4:          |  |  |  |           20 31                                             ;  1
+               |  |  |  |              ; "DigiCert SHA256 RSA4096 Timestamp Responder 2025 1"
+01c6:          |  |  |  30 82 02 22		; SEQUENCE (222 Bytes)
+01ca:          |  |  |  |  30 0d		; SEQUENCE (d Bytes)
+01cc:          |  |  |  |  |  06 09		; OBJECT_ID (9 Bytes)
+01ce:          |  |  |  |  |  |  2a 86 48 86 f7 0d 01 01  01
+               |  |  |  |  |  |     ; 1.2.840.113549.1.1.1 RSA (RSA_SIGN)
+01d7:          |  |  |  |  |  05 00		; NULL (0 Bytes)
+01d9:          |  |  |  |  03 82 02 0f		; BIT_STRING (20f Bytes)
+01dd:          |  |  |  |     00
+01de:          |  |  |  |     30 82 02 0a	; SEQUENCE (20a Bytes)
+01e2:          |  |  |  |        02 82 02 01	; INTEGER (201 Bytes)
+01e6:          |  |  |  |        |  00
+01e7:          |  |  |  |        |  d0 46 ac 2d 12 c6 9e d0  ea ae 60 56 b3 2b 57 ba
+01f7:          |  |  |  |        |  6f 51 ff 86 70 0a 01 df  ca 37 cc 19 42 30 63 32
+0207:          |  |  |  |        |  a8 99 df 14 d6 71 fb 0b  c0 eb d1 c5 4c 17 70 6c
+0217:          |  |  |  |        |  7c 01 48 e7 8b a6 f3 e7  67 c6 4d fa fa 3c 74 4d
+0227:          |  |  |  |        |  bf a4 fb ce c7 f5 63 f1  37 21 4f 24 80 d9 1e 10
+0237:          |  |  |  |        |  2a 95 43 ed db cd 66 1e  b0 5b 64 7a 91 2b bd 44
+0247:          |  |  |  |        |  9b 7f e1 08 60 b9 2b 2c  a7 7a a8 99 ee cc af 15
+0257:          |  |  |  |        |  72 7d 03 bd b0 cc 7a 64  05 a3 14 36 0e cc 38 bc
+0267:          |  |  |  |        |  48 e8 4f 51 69 4b 9e 1d  34 0a 59 7c a6 3a d4 70
+0277:          |  |  |  |        |  25 77 2b 71 34 cf 3d 3d  95 d4 3f fe 70 59 65 11
+0287:          |  |  |  |        |  2b e2 1f c6 23 a0 f1 6f  65 28 ca b3 74 8a 3b 54
+0297:          |  |  |  |        |  0d 51 d1 5d d9 a7 70 e3  8c 03 70 a8 07 f8 94 49
+02a7:          |  |  |  |        |  13 94 20 d0 d3 f7 ca 24  b2 8b 93 31 81 4e 9c 7a
+02b7:          |  |  |  |        |  11 87 af bc e8 bb 5c e7  38 cf 28 75 b9 2a a0 af
+02c7:          |  |  |  |        |  a5 27 6e 4b 08 70 52 6a  2d b9 08 5c 83 db 70 d9
+02d7:          |  |  |  |        |  80 f7 c3 ac 92 49 2b be  de a5 3c 0c 3f a7 8a 03
+02e7:          |  |  |  |        |  49 16 6b 7a 2c 01 ef 1f  72 92 b8 d2 e8 64 b7 35
+02f7:          |  |  |  |        |  1d fd 89 34 c5 4b e1 0d  4e a5 bc 9b a4 c7 b8 e9
+0307:          |  |  |  |        |  87 1e 34 0d 0b 7c db 27  a9 c9 e9 25 e2 2d 2b f0
+0317:          |  |  |  |        |  e1 29 b3 f1 4d 3b 86 a1  7e f0 24 d7 68 44 e4 55
+0327:          |  |  |  |        |  6c f4 75 55 59 c3 b9 27  87 55 99 5c e2 c7 80 3b
+0337:          |  |  |  |        |  ee 9d da c0 b6 eb f3 d0  3d d3 f9 d6 1a 35 cc 1a
+0347:          |  |  |  |        |  7e c5 42 19 92 94 85 03  cb d6 76 85 28 1c b5 a7
+0357:          |  |  |  |        |  a9 65 37 74 20 b2 14 6d  6b a1 2a e0 1e 34 87 96
+0367:          |  |  |  |        |  af 31 ca 62 e7 8c 26 d2  2d 9e 3d 90 f9 a4 f2 2c
+0377:          |  |  |  |        |  b2 8b 33 43 21 78 ff fd  c3 a0 ad 8e eb 95 1c 93
+0387:          |  |  |  |        |  95 a0 82 7f 0e da 49 44  4e c2 7b bb cc 44 7a 11
+0397:          |  |  |  |        |  a2 7e 02 58 8b ee 88 d3  75 2e 4f 58 fb 16 7a ea
+03a7:          |  |  |  |        |  56 b3 b3 69 0a 15 24 e7  9e 4a d3 de 95 d6 11 34
+03b7:          |  |  |  |        |  c9 92 17 7b e8 22 03 05  b4 d1 a1 f3 ac 37 21 21
+03c7:          |  |  |  |        |  cd 9b 42 1a 69 d0 8a 0a  45 1e d8 b9 f0 24 a6 bc
+03d7:          |  |  |  |        |  4c 89 70 09 43 55 c2 9a  70 9f 80 f7 fc fb 79 a7
+03e7:          |  |  |  |        02 03		; INTEGER (3 Bytes)
+03e9:          |  |  |  |           01 00 01
+03ec:          |  |  |  a3 82 01 95		; OPTIONAL[3] (195 Bytes)
+03f0:          |  |  |     30 82 01 91		; SEQUENCE (191 Bytes)
+03f4:          |  |  |        30 0c		; SEQUENCE (c Bytes)
+03f6:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+03f8:          |  |  |        |  |  55 1d 13
+               |  |  |        |  |     ; 2.5.29.19 Basic Constraints
+03fb:          |  |  |        |  01 01		; BOOL (1 Bytes)
+03fd:          |  |  |        |  |  ff
+03fe:          |  |  |        |  04 02		; OCTET_STRING (2 Bytes)
+0400:          |  |  |        |     30 00	; SEQUENCE (0 Bytes)
+0402:          |  |  |        30 1d		; SEQUENCE (1d Bytes)
+0404:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0406:          |  |  |        |  |  55 1d 0e
+               |  |  |        |  |     ; 2.5.29.14 Subject Key Identifier
+0409:          |  |  |        |  04 16		; OCTET_STRING (16 Bytes)
+040b:          |  |  |        |     04 14	; OCTET_STRING (14 Bytes)
+040d:          |  |  |        |        e4 3b fc f2 31 ed fd fd  d7 f3 91 71 63 19 50 43  ; .;..1......qc.PC
+041d:          |  |  |        |        cf 61 8c e8                                       ; .a..
+0421:          |  |  |        30 1f		; SEQUENCE (1f Bytes)
+0423:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0425:          |  |  |        |  |  55 1d 23
+               |  |  |        |  |     ; 2.5.29.35 Authority Key Identifier
+0428:          |  |  |        |  04 18		; OCTET_STRING (18 Bytes)
+042a:          |  |  |        |     30 16	; SEQUENCE (16 Bytes)
+042c:          |  |  |        |        80 14	; CONTEXT_SPECIFIC[0] (14 Bytes)
+042e:          |  |  |        |           ef 6f 53 4a e9 e4 06 7c  7a ca e2 90 56 f6 2f d4  ; .oSJ...|z...V./.
+043e:          |  |  |        |           49 ec cb 4e                                       ; I..N
+0442:          |  |  |        30 0e		; SEQUENCE (e Bytes)
+0444:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0446:          |  |  |        |  |  55 1d 0f
+               |  |  |        |  |     ; 2.5.29.15 Key Usage
+0449:          |  |  |        |  01 01		; BOOL (1 Bytes)
+044b:          |  |  |        |  |  ff
+044c:          |  |  |        |  04 04		; OCTET_STRING (4 Bytes)
+044e:          |  |  |        |     03 02	; BIT_STRING (2 Bytes)
+0450:          |  |  |        |        07
+0451:          |  |  |        |        80
+0452:          |  |  |        30 16		; SEQUENCE (16 Bytes)
+0454:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0456:          |  |  |        |  |  55 1d 25
+               |  |  |        |  |     ; 2.5.29.37 Enhanced Key Usage
+0459:          |  |  |        |  01 01		; BOOL (1 Bytes)
+045b:          |  |  |        |  |  ff
+045c:          |  |  |        |  04 0c		; OCTET_STRING (c Bytes)
+045e:          |  |  |        |     30 0a	; SEQUENCE (a Bytes)
+0460:          |  |  |        |        06 08	; OBJECT_ID (8 Bytes)
+0462:          |  |  |        |           2b 06 01 05 05 07 03 08
+               |  |  |        |              ; 1.3.6.1.5.5.7.3.8 Time Stamping
+046a:          |  |  |        30 81 95		; SEQUENCE (95 Bytes)
+046d:          |  |  |        |  06 08		; OBJECT_ID (8 Bytes)
+046f:          |  |  |        |  |  2b 06 01 05 05 07 01 01
+               |  |  |        |  |     ; 1.3.6.1.5.5.7.1.1 Authority Information Access
+0477:          |  |  |        |  04 81 88	; OCTET_STRING (88 Bytes)
+047a:          |  |  |        |     30 81 85	; SEQUENCE (85 Bytes)
+047d:          |  |  |        |        30 24	; SEQUENCE (24 Bytes)
+047f:          |  |  |        |        |  06 08	; OBJECT_ID (8 Bytes)
+0481:          |  |  |        |        |  |  2b 06 01 05 05 07 30 01
+               |  |  |        |        |  |     ; 1.3.6.1.5.5.7.48.1 On-line Certificate Status Protocol
+0489:          |  |  |        |        |  86 18	; CONTEXT_SPECIFIC[6] (18 Bytes)
+048b:          |  |  |        |        |     68 74 74 70 3a 2f 2f 6f  63 73 70 2e 64 69 67 69  ; http://ocsp.digi
+049b:          |  |  |        |        |     63 65 72 74 2e 63 6f 6d                           ; cert.com
+04a3:          |  |  |        |        30 5d	; SEQUENCE (5d Bytes)
+04a5:          |  |  |        |           06 08	; OBJECT_ID (8 Bytes)
+04a7:          |  |  |        |           |  2b 06 01 05 05 07 30 02
+               |  |  |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
+04af:          |  |  |        |           86 51	; CONTEXT_SPECIFIC[6] (51 Bytes)
+04b1:          |  |  |        |              68 74 74 70 3a 2f 2f 63  61 63 65 72 74 73 2e 64  ; http://cacerts.d
+04c1:          |  |  |        |              69 67 69 63 65 72 74 2e  63 6f 6d 2f 44 69 67 69  ; igicert.com/Digi
+04d1:          |  |  |        |              43 65 72 74 54 72 75 73  74 65 64 47 34 54 69 6d  ; CertTrustedG4Tim
+04e1:          |  |  |        |              65 53 74 61 6d 70 69 6e  67 52 53 41 34 30 39 36  ; eStampingRSA4096
+04f1:          |  |  |        |              53 48 41 32 35 36 32 30  32 35 43 41 31 2e 63 72  ; SHA2562025CA1.cr
+0501:          |  |  |        |              74                                                ; t
+0502:          |  |  |        30 5f		; SEQUENCE (5f Bytes)
+0504:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0506:          |  |  |        |  |  55 1d 1f
+               |  |  |        |  |     ; 2.5.29.31 CRL Distribution Points
+0509:          |  |  |        |  04 58		; OCTET_STRING (58 Bytes)
+050b:          |  |  |        |     30 56	; SEQUENCE (56 Bytes)
+050d:          |  |  |        |        30 54	; SEQUENCE (54 Bytes)
+050f:          |  |  |        |           a0 52	; OPTIONAL[0] (52 Bytes)
+0511:          |  |  |        |              a0 50	; OPTIONAL[0] (50 Bytes)
+0513:          |  |  |        |                 86 4e	; CONTEXT_SPECIFIC[6] (4e Bytes)
+0515:          |  |  |        |                    68 74 74 70 3a 2f 2f 63  72 6c 33 2e 64 69 67 69  ; http://crl3.digi
+0525:          |  |  |        |                    63 65 72 74 2e 63 6f 6d  2f 44 69 67 69 43 65 72  ; cert.com/DigiCer
+0535:          |  |  |        |                    74 54 72 75 73 74 65 64  47 34 54 69 6d 65 53 74  ; tTrustedG4TimeSt
+0545:          |  |  |        |                    61 6d 70 69 6e 67 52 53  41 34 30 39 36 53 48 41  ; ampingRSA4096SHA
+0555:          |  |  |        |                    32 35 36 32 30 32 35 43  41 31 2e 63 72 6c        ; 2562025CA1.crl
+0563:          |  |  |        30 20		; SEQUENCE (20 Bytes)
+0565:          |  |  |           06 03		; OBJECT_ID (3 Bytes)
+0567:          |  |  |           |  55 1d 20
+               |  |  |           |     ; 2.5.29.32 Certificate Policies
+056a:          |  |  |           04 19		; OCTET_STRING (19 Bytes)
+056c:          |  |  |              30 17	; SEQUENCE (17 Bytes)
+056e:          |  |  |                 30 08	; SEQUENCE (8 Bytes)
+0570:          |  |  |                 |  06 06	; OBJECT_ID (6 Bytes)
+0572:          |  |  |                 |     67 81 0c 01 04 02
+               |  |  |                 |        ; 2.23.140.1.4.2
+0578:          |  |  |                 30 0b	; SEQUENCE (b Bytes)
+057a:          |  |  |                    06 09	; OBJECT_ID (9 Bytes)
+057c:          |  |  |                       60 86 48 01 86 fd 6c 07  01
+               |  |  |                          ; 2.16.840.1.114412.7.1
+0585:          |  |  30 0d			; SEQUENCE (d Bytes)
+0587:          |  |  |  06 09			; OBJECT_ID (9 Bytes)
+0589:          |  |  |  |  2a 86 48 86 f7 0d 01 01  0b
+               |  |  |  |     ; 1.2.840.113549.1.1.11 sha256RSA
+0592:          |  |  |  05 00			; NULL (0 Bytes)
+0594:          |  |  03 82 02 01		; BIT_STRING (201 Bytes)
+0598:          |  |     00
+0599:          |  |     65 2a ad f1 1c 27 04 b9  ae 60 41 ec d1 08 44 9e
+05a9:          |  |     63 40 72 21 f8 e4 f6 22  4f db 35 8b a5 0a b5 6f
+05b9:          |  |     85 11 1a 7c 16 05 d1 19  0f d8 01 ab d7 cd 68 d9
+05c9:          |  |     85 8f a1 21 f3 f6 26 44  37 f1 4f b0 b4 93 c1 54
+05d9:          |  |     16 a3 61 fa db 21 81 be  0e e8 b8 23 83 c2 bc 7a
+05e9:          |  |     50 b8 fa 85 82 aa 75 3f  30 bf 65 15 f8 a6 f3 ff
+05f9:          |  |     72 26 66 52 7b 61 7c 01  0f d4 74 a1 4e b6 3e d8
+0609:          |  |     31 39 aa 3c ef 66 ce c9  20 88 2d d0 60 85 0f d9
+0619:          |  |     2d c7 42 f1 c6 d4 50 ee  f9 65 2a 5b 87 5a 22 a4
+0629:          |  |     e8 5c 51 3f 25 0f c4 00  18 1f 65 72 d6 53 4c e2
+0639:          |  |     4c de 91 df 28 10 04 73  14 05 a0 79 6d da cf 6c
+0649:          |  |     5e 8c 45 8b 34 de 1e 28  6c 43 27 c5 83 97 f1 50
+0659:          |  |     51 29 ed 6e 36 7c d0 55  37 8b 9e 2d a7 1e 45 ff
+0669:          |  |     42 ab d7 9c d6 fe 62 40  c5 93 15 06 b4 c4 da 88
+0679:          |  |     b4 7d c2 3c 54 c6 ed a1  10 26 69 ab 25 35 77 42
+0689:          |  |     1b 5f a5 aa f3 f8 15 ba  d0 e8 8c 12 05 79 19 6a
+0699:          |  |     01 cb 84 55 3d 1c 2a c6  fe cc 93 44 b2 e1 01 ec
+06a9:          |  |     ee ff 72 eb d3 41 ab 27  33 d0 16 70 84 1f 56 39
+06b9:          |  |     f3 ae fc 22 09 9f 39 10  4f 0b 52 4a 91 86 84 b7
+06c9:          |  |     63 9d 0e 1e 06 98 ed 3f  e5 c1 de 94 02 b6 fe 04
+06d9:          |  |     e5 40 92 0d a8 3a fa 25  fc 32 60 75 d2 77 e5 74
+06e9:          |  |     f1 7d 49 50 fb c1 e0 82  df 25 d9 8b fb ae 86 a7
+06f9:          |  |     70 92 05 71 ba 23 05 cc  65 45 c1 86 d0 b2 21 a7
+0709:          |  |     a1 af 45 e4 06 80 c8 18  c5 06 d5 d5 2d c2 ad 6a
+0719:          |  |     99 cc 1b 75 47 dc 49 80  a7 f8 ec 27 71 55 17 7f
+0729:          |  |     9d d5 25 43 4e 68 c5 8c  b6 cd 15 95 16 31 7b 99
+0739:          |  |     ca f8 0b 7e 0c 8f 7a 1c  09 57 1c 02 f9 4a 57 d8
+0749:          |  |     c4 9e cb 6b 9e 22 ef 53  1c 55 64 4f eb a6 d6 fb
+0759:          |  |     21 11 36 96 c9 0a 3c 82  60 6d a3 f9 b7 69 c6 8f
+0769:          |  |     f5 0b 2e 2e 3d c5 37 01  65 4f 1a b6 e7 e4 f8 43
+0779:          |  |     05 fd c5 ae 88 2e cf 38  64 fb e6 a6 8b ea f7 42
+0789:          |  |     bc 79 6c 86 d8 dd 35 73  82 21 48 ec 6a b7 cd 67
+0799:          |  30 82 06 b4			; SEQUENCE (6b4 Bytes)
+079d:          |  |  30 82 04 9c		; SEQUENCE (49c Bytes)
+07a1:          |  |  |  a0 03			; OPTIONAL[0] (3 Bytes)
+07a3:          |  |  |  |  02 01		; INTEGER (1 Bytes)
+07a5:          |  |  |  |     02
+07a6:          |  |  |  02 10			; INTEGER (10 Bytes)
+07a8:          |  |  |  |  0d c7 ac 57 05 ff 21 99  2e 40 43 22 0c 3a 49 86
+07b8:          |  |  |  30 0d			; SEQUENCE (d Bytes)
+07ba:          |  |  |  |  06 09		; OBJECT_ID (9 Bytes)
+07bc:          |  |  |  |  |  2a 86 48 86 f7 0d 01 01  0b
+               |  |  |  |  |     ; 1.2.840.113549.1.1.11 sha256RSA
+07c5:          |  |  |  |  05 00		; NULL (0 Bytes)
+07c7:          |  |  |  30 62			; SEQUENCE (62 Bytes)
+07c9:          |  |  |  |  31 0b		; SET (b Bytes)
+07cb:          |  |  |  |  |  30 09		; SEQUENCE (9 Bytes)
+07cd:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+07cf:          |  |  |  |  |     |  55 04 06
+               |  |  |  |  |     |     ; 2.5.4.6 Country/Region (C)
+07d2:          |  |  |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+07d4:          |  |  |  |  |        55 53                                             ; US
+               |  |  |  |  |           ; "US"
+07d6:          |  |  |  |  31 15		; SET (15 Bytes)
+07d8:          |  |  |  |  |  30 13		; SEQUENCE (13 Bytes)
+07da:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+07dc:          |  |  |  |  |     |  55 04 0a
+               |  |  |  |  |     |     ; 2.5.4.10 Organization (O)
+07df:          |  |  |  |  |     13 0c		; PRINTABLE_STRING (c Bytes)
+07e1:          |  |  |  |  |        44 69 67 69 43 65 72 74  20 49 6e 63              ; DigiCert Inc
+               |  |  |  |  |           ; "DigiCert Inc"
+07ed:          |  |  |  |  31 19		; SET (19 Bytes)
+07ef:          |  |  |  |  |  30 17		; SEQUENCE (17 Bytes)
+07f1:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+07f3:          |  |  |  |  |     |  55 04 0b
+               |  |  |  |  |     |     ; 2.5.4.11 Organizational Unit (OU)
+07f6:          |  |  |  |  |     13 10		; PRINTABLE_STRING (10 Bytes)
+07f8:          |  |  |  |  |        77 77 77 2e 64 69 67 69  63 65 72 74 2e 63 6f 6d  ; www.digicert.com
+               |  |  |  |  |           ; "www.digicert.com"
+0808:          |  |  |  |  31 21		; SET (21 Bytes)
+080a:          |  |  |  |     30 1f		; SEQUENCE (1f Bytes)
+080c:          |  |  |  |        06 03		; OBJECT_ID (3 Bytes)
+080e:          |  |  |  |        |  55 04 03
+               |  |  |  |        |     ; 2.5.4.3 Common Name (CN)
+0811:          |  |  |  |        13 18		; PRINTABLE_STRING (18 Bytes)
+0813:          |  |  |  |           44 69 67 69 43 65 72 74  20 54 72 75 73 74 65 64  ; DigiCert Trusted
+0823:          |  |  |  |           20 52 6f 6f 74 20 47 34                           ;  Root G4
+               |  |  |  |              ; "DigiCert Trusted Root G4"
+082b:          |  |  |  30 1e			; SEQUENCE (1e Bytes)
+082d:          |  |  |  |  17 0d		; UTC_TIME (d Bytes)
+082f:          |  |  |  |  |  32 35 30 35 30 37 30 30  30 30 30 30 5a           ; 250507000000Z
+               |  |  |  |  |     ;  5/6/2025 5:00 PM
+083c:          |  |  |  |  17 0d		; UTC_TIME (d Bytes)
+083e:          |  |  |  |     33 38 30 31 31 34 32 33  35 39 35 39 5a           ; 380114235959Z
+               |  |  |  |        ;  1/14/2038 4:59 PM
+084b:          |  |  |  30 69			; SEQUENCE (69 Bytes)
+084d:          |  |  |  |  31 0b		; SET (b Bytes)
+084f:          |  |  |  |  |  30 09		; SEQUENCE (9 Bytes)
+0851:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0853:          |  |  |  |  |     |  55 04 06
+               |  |  |  |  |     |     ; 2.5.4.6 Country/Region (C)
+0856:          |  |  |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+0858:          |  |  |  |  |        55 53                                             ; US
+               |  |  |  |  |           ; "US"
+085a:          |  |  |  |  31 17		; SET (17 Bytes)
+085c:          |  |  |  |  |  30 15		; SEQUENCE (15 Bytes)
+085e:          |  |  |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0860:          |  |  |  |  |     |  55 04 0a
+               |  |  |  |  |     |     ; 2.5.4.10 Organization (O)
+0863:          |  |  |  |  |     13 0e		; PRINTABLE_STRING (e Bytes)
+0865:          |  |  |  |  |        44 69 67 69 43 65 72 74  2c 20 49 6e 63 2e        ; DigiCert, Inc.
+               |  |  |  |  |           ; "DigiCert, Inc."
+0873:          |  |  |  |  31 41		; SET (41 Bytes)
+0875:          |  |  |  |     30 3f		; SEQUENCE (3f Bytes)
+0877:          |  |  |  |        06 03		; OBJECT_ID (3 Bytes)
+0879:          |  |  |  |        |  55 04 03
+               |  |  |  |        |     ; 2.5.4.3 Common Name (CN)
+087c:          |  |  |  |        13 38		; PRINTABLE_STRING (38 Bytes)
+087e:          |  |  |  |           44 69 67 69 43 65 72 74  20 54 72 75 73 74 65 64  ; DigiCert Trusted
+088e:          |  |  |  |           20 47 34 20 54 69 6d 65  53 74 61 6d 70 69 6e 67  ;  G4 TimeStamping
+089e:          |  |  |  |           20 52 53 41 34 30 39 36  20 53 48 41 32 35 36 20  ;  RSA4096 SHA256 
+08ae:          |  |  |  |           32 30 32 35 20 43 41 31                           ; 2025 CA1
+               |  |  |  |              ; "DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1"
+08b6:          |  |  |  30 82 02 22		; SEQUENCE (222 Bytes)
+08ba:          |  |  |  |  30 0d		; SEQUENCE (d Bytes)
+08bc:          |  |  |  |  |  06 09		; OBJECT_ID (9 Bytes)
+08be:          |  |  |  |  |  |  2a 86 48 86 f7 0d 01 01  01
+               |  |  |  |  |  |     ; 1.2.840.113549.1.1.1 RSA (RSA_SIGN)
+08c7:          |  |  |  |  |  05 00		; NULL (0 Bytes)
+08c9:          |  |  |  |  03 82 02 0f		; BIT_STRING (20f Bytes)
+08cd:          |  |  |  |     00
+08ce:          |  |  |  |     30 82 02 0a	; SEQUENCE (20a Bytes)
+08d2:          |  |  |  |        02 82 02 01	; INTEGER (201 Bytes)
+08d6:          |  |  |  |        |  00
+08d7:          |  |  |  |        |  b4 78 31 d3 0a 98 41 72  be 3c 46 c0 1c ac 75 db
+08e7:          |  |  |  |        |  a3 46 68 74 b4 51 17 9d  4d ad 8d 0d 94 b5 99 96
+08f7:          |  |  |  |        |  83 2c 54 ed 43 6a 11 8f  35 17 32 6c 42 aa f9 1b
+0907:          |  |  |  |        |  b0 3a 73 e1 a1 fe a9 bc  5e 2e 1a 3c 23 a8 d8 df
+0917:          |  |  |  |        |  12 f5 22 eb 0b a2 9b 96  da a7 ed 25 82 5a 0c db
+0927:          |  |  |  |        |  35 f8 91 fb 67 e4 1d 48  a5 8c d3 aa 9c 85 43 fe
+0937:          |  |  |  |        |  01 b7 49 80 c4 01 de 1d  83 67 43 1a 97 99 18 a7
+0947:          |  |  |  |        |  be e3 60 c5 50 5d 26 47  fb ed 2d ae 3e 80 a3 ec
+0957:          |  |  |  |        |  61 fc 04 bb b1 04 6e 40  bd fb 41 76 c3 84 09 2d
+0967:          |  |  |  |        |  54 93 10 6f 32 01 1d 82  41 62 0c d6 22 39 3c 78
+0977:          |  |  |  |        |  3a d8 85 70 c4 a4 a9 3b  45 da 17 d0 cf 7c d0 4a
+0987:          |  |  |  |        |  4b b6 5a cd c8 7c 34 5e  6f a7 b7 9a 67 60 95 37
+0997:          |  |  |  |        |  1a 6a ba 6c d3 08 d4 8e  c6 6f 92 01 64 ae 22 bd
+09a7:          |  |  |  |        |  b5 42 89 9b fb 3c d0 58  a8 71 29 35 55 82 d9 94
+09b7:          |  |  |  |        |  3c 05 b7 e7 15 14 15 11  26 0e b3 31 48 d9 6b fc
+09c7:          |  |  |  |        |  db 09 c9 45 f3 76 d1 54  52 de 1a 4b 80 84 78 86
+09d7:          |  |  |  |        |  3c cb d2 1a 68 60 69 3c  d5 ca 16 27 e2 9d 3e f3
+09e7:          |  |  |  |        |  2f 68 1d 16 90 4f f6 a8  7c 49 d2 e7 12 eb 7f 19
+09f7:          |  |  |  |        |  c6 a5 35 e2 50 e7 92 2e  c2 72 82 82 cf a7 ae 9b
+0a07:          |  |  |  |        |  90 35 f5 66 50 1e 4a 94  25 f7 64 0e 31 e4 71 ca
+0a17:          |  |  |  |        |  4b ea ea 06 f2 96 c5 d0  b2 40 41 06 71 b2 de d5
+0a27:          |  |  |  |        |  bf 00 c3 8c 09 92 15 35  26 b3 ec 15 fc 56 d6 06
+0a37:          |  |  |  |        |  a8 bb 7d 32 67 8e ad e1  8f 45 db 41 c7 7c 86 38
+0a47:          |  |  |  |        |  ff ab c7 7a ca 58 31 09  94 8a 8b 5e f2 56 9d 8d
+0a57:          |  |  |  |        |  2f e7 27 4f a4 e8 cb ea  cd fa 73 3c 33 b2 e7 2e
+0a67:          |  |  |  |        |  a0 ab 3b 62 4f de 85 bf  ff 5b 1f b9 90 ca 88 31
+0a77:          |  |  |  |        |  1b d4 04 3c 7a cf 57 af  fb ba 6c 34 e7 60 24 ca
+0a87:          |  |  |  |        |  22 c0 ea d4 1b 66 5d 4a  84 1b 53 6a cc 92 92 e2
+0a97:          |  |  |  |        |  43 a6 c6 46 29 d9 6c 8e  0e 2e ef 41 30 81 66 d5
+0aa7:          |  |  |  |        |  45 25 f5 59 de 3e ce 81  69 a7 84 5a f8 c9 4a 33
+0ab7:          |  |  |  |        |  66 da a0 3e b1 d1 54 78  46 34 a9 58 cf 28 e5 ae
+0ac7:          |  |  |  |        |  83 f1 ba 5f 9b 80 8b 29  cc ec 1b b6 6b 20 63 53
+0ad7:          |  |  |  |        02 03		; INTEGER (3 Bytes)
+0ad9:          |  |  |  |           01 00 01
+0adc:          |  |  |  a3 82 01 5d		; OPTIONAL[3] (15d Bytes)
+0ae0:          |  |  |     30 82 01 59		; SEQUENCE (159 Bytes)
+0ae4:          |  |  |        30 12		; SEQUENCE (12 Bytes)
+0ae6:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0ae8:          |  |  |        |  |  55 1d 13
+               |  |  |        |  |     ; 2.5.29.19 Basic Constraints
+0aeb:          |  |  |        |  01 01		; BOOL (1 Bytes)
+0aed:          |  |  |        |  |  ff
+0aee:          |  |  |        |  04 08		; OCTET_STRING (8 Bytes)
+0af0:          |  |  |        |     30 06	; SEQUENCE (6 Bytes)
+0af2:          |  |  |        |        01 01	; BOOL (1 Bytes)
+0af4:          |  |  |        |        |  ff
+0af5:          |  |  |        |        02 01	; INTEGER (1 Bytes)
+0af7:          |  |  |        |           00
+0af8:          |  |  |        30 1d		; SEQUENCE (1d Bytes)
+0afa:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0afc:          |  |  |        |  |  55 1d 0e
+               |  |  |        |  |     ; 2.5.29.14 Subject Key Identifier
+0aff:          |  |  |        |  04 16		; OCTET_STRING (16 Bytes)
+0b01:          |  |  |        |     04 14	; OCTET_STRING (14 Bytes)
+0b03:          |  |  |        |        ef 6f 53 4a e9 e4 06 7c  7a ca e2 90 56 f6 2f d4  ; .oSJ...|z...V./.
+0b13:          |  |  |        |        49 ec cb 4e                                       ; I..N
+0b17:          |  |  |        30 1f		; SEQUENCE (1f Bytes)
+0b19:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0b1b:          |  |  |        |  |  55 1d 23
+               |  |  |        |  |     ; 2.5.29.35 Authority Key Identifier
+0b1e:          |  |  |        |  04 18		; OCTET_STRING (18 Bytes)
+0b20:          |  |  |        |     30 16	; SEQUENCE (16 Bytes)
+0b22:          |  |  |        |        80 14	; CONTEXT_SPECIFIC[0] (14 Bytes)
+0b24:          |  |  |        |           ec d7 e3 82 d2 71 5d 64  4c df 2e 67 3f e7 ba 98  ; .....q]dL..g?...
+0b34:          |  |  |        |           ae 1c 0f 4f                                       ; ...O
+0b38:          |  |  |        30 0e		; SEQUENCE (e Bytes)
+0b3a:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0b3c:          |  |  |        |  |  55 1d 0f
+               |  |  |        |  |     ; 2.5.29.15 Key Usage
+0b3f:          |  |  |        |  01 01		; BOOL (1 Bytes)
+0b41:          |  |  |        |  |  ff
+0b42:          |  |  |        |  04 04		; OCTET_STRING (4 Bytes)
+0b44:          |  |  |        |     03 02	; BIT_STRING (2 Bytes)
+0b46:          |  |  |        |        01
+0b47:          |  |  |        |        86
+0b48:          |  |  |        30 13		; SEQUENCE (13 Bytes)
+0b4a:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0b4c:          |  |  |        |  |  55 1d 25
+               |  |  |        |  |     ; 2.5.29.37 Enhanced Key Usage
+0b4f:          |  |  |        |  04 0c		; OCTET_STRING (c Bytes)
+0b51:          |  |  |        |     30 0a	; SEQUENCE (a Bytes)
+0b53:          |  |  |        |        06 08	; OBJECT_ID (8 Bytes)
+0b55:          |  |  |        |           2b 06 01 05 05 07 03 08
+               |  |  |        |              ; 1.3.6.1.5.5.7.3.8 Time Stamping
+0b5d:          |  |  |        30 77		; SEQUENCE (77 Bytes)
+0b5f:          |  |  |        |  06 08		; OBJECT_ID (8 Bytes)
+0b61:          |  |  |        |  |  2b 06 01 05 05 07 01 01
+               |  |  |        |  |     ; 1.3.6.1.5.5.7.1.1 Authority Information Access
+0b69:          |  |  |        |  04 6b		; OCTET_STRING (6b Bytes)
+0b6b:          |  |  |        |     30 69	; SEQUENCE (69 Bytes)
+0b6d:          |  |  |        |        30 24	; SEQUENCE (24 Bytes)
+0b6f:          |  |  |        |        |  06 08	; OBJECT_ID (8 Bytes)
+0b71:          |  |  |        |        |  |  2b 06 01 05 05 07 30 01
+               |  |  |        |        |  |     ; 1.3.6.1.5.5.7.48.1 On-line Certificate Status Protocol
+0b79:          |  |  |        |        |  86 18	; CONTEXT_SPECIFIC[6] (18 Bytes)
+0b7b:          |  |  |        |        |     68 74 74 70 3a 2f 2f 6f  63 73 70 2e 64 69 67 69  ; http://ocsp.digi
+0b8b:          |  |  |        |        |     63 65 72 74 2e 63 6f 6d                           ; cert.com
+0b93:          |  |  |        |        30 41	; SEQUENCE (41 Bytes)
+0b95:          |  |  |        |           06 08	; OBJECT_ID (8 Bytes)
+0b97:          |  |  |        |           |  2b 06 01 05 05 07 30 02
+               |  |  |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
+0b9f:          |  |  |        |           86 35	; CONTEXT_SPECIFIC[6] (35 Bytes)
+0ba1:          |  |  |        |              68 74 74 70 3a 2f 2f 63  61 63 65 72 74 73 2e 64  ; http://cacerts.d
+0bb1:          |  |  |        |              69 67 69 63 65 72 74 2e  63 6f 6d 2f 44 69 67 69  ; igicert.com/Digi
+0bc1:          |  |  |        |              43 65 72 74 54 72 75 73  74 65 64 52 6f 6f 74 47  ; CertTrustedRootG
+0bd1:          |  |  |        |              34 2e 63 72 74                                    ; 4.crt
+0bd6:          |  |  |        30 43		; SEQUENCE (43 Bytes)
+0bd8:          |  |  |        |  06 03		; OBJECT_ID (3 Bytes)
+0bda:          |  |  |        |  |  55 1d 1f
+               |  |  |        |  |     ; 2.5.29.31 CRL Distribution Points
+0bdd:          |  |  |        |  04 3c		; OCTET_STRING (3c Bytes)
+0bdf:          |  |  |        |     30 3a	; SEQUENCE (3a Bytes)
+0be1:          |  |  |        |        30 38	; SEQUENCE (38 Bytes)
+0be3:          |  |  |        |           a0 36	; OPTIONAL[0] (36 Bytes)
+0be5:          |  |  |        |              a0 34	; OPTIONAL[0] (34 Bytes)
+0be7:          |  |  |        |                 86 32	; CONTEXT_SPECIFIC[6] (32 Bytes)
+0be9:          |  |  |        |                    68 74 74 70 3a 2f 2f 63  72 6c 33 2e 64 69 67 69  ; http://crl3.digi
+0bf9:          |  |  |        |                    63 65 72 74 2e 63 6f 6d  2f 44 69 67 69 43 65 72  ; cert.com/DigiCer
+0c09:          |  |  |        |                    74 54 72 75 73 74 65 64  52 6f 6f 74 47 34 2e 63  ; tTrustedRootG4.c
+0c19:          |  |  |        |                    72 6c                                             ; rl
+0c1b:          |  |  |        30 20		; SEQUENCE (20 Bytes)
+0c1d:          |  |  |           06 03		; OBJECT_ID (3 Bytes)
+0c1f:          |  |  |           |  55 1d 20
+               |  |  |           |     ; 2.5.29.32 Certificate Policies
+0c22:          |  |  |           04 19		; OCTET_STRING (19 Bytes)
+0c24:          |  |  |              30 17	; SEQUENCE (17 Bytes)
+0c26:          |  |  |                 30 08	; SEQUENCE (8 Bytes)
+0c28:          |  |  |                 |  06 06	; OBJECT_ID (6 Bytes)
+0c2a:          |  |  |                 |     67 81 0c 01 04 02
+               |  |  |                 |        ; 2.23.140.1.4.2
+0c30:          |  |  |                 30 0b	; SEQUENCE (b Bytes)
+0c32:          |  |  |                    06 09	; OBJECT_ID (9 Bytes)
+0c34:          |  |  |                       60 86 48 01 86 fd 6c 07  01
+               |  |  |                          ; 2.16.840.1.114412.7.1
+0c3d:          |  |  30 0d			; SEQUENCE (d Bytes)
+0c3f:          |  |  |  06 09			; OBJECT_ID (9 Bytes)
+0c41:          |  |  |  |  2a 86 48 86 f7 0d 01 01  0b
+               |  |  |  |     ; 1.2.840.113549.1.1.11 sha256RSA
+0c4a:          |  |  |  05 00			; NULL (0 Bytes)
+0c4c:          |  |  03 82 02 01		; BIT_STRING (201 Bytes)
+0c50:          |  |     00
+0c51:          |  |     17 ce fb 16 80 1c fe 07  3d 11 76 71 30 bd be 0b
+0c61:          |  |     c8 b5 34 a6 7f cd d0 87  c5 88 1a 30 7f 4f c3 9b
+0c71:          |  |     5c 06 73 f0 e8 ee 85 4c  63 69 a1 5d 95 e3 0c d2
+0c81:          |  |     50 6b c8 f4 d0 33 6a 84  24 f7 b7 eb 3c 1b 48 8f
+0c91:          |  |     e6 4b cd da 7e c9 77 61  38 fe 21 08 50 13 b8 d4
+0ca1:          |  |     fe 45 e3 8f 2b 49 82 79  f4 86 fa d5 ea 1a 96 19
+0cb1:          |  |     dd eb 2c 05 2d ea f2 72  f6 53 03 3e 34 cb c4 b8
+0cc1:          |  |     17 7f da f9 9d 63 10 c2  bf 0c c9 bf 6b 11 52 82
+0cd1:          |  |     84 7c 9f a7 37 9e e6 41  f4 17 c1 c0 04 18 2b d1
+0ce1:          |  |     47 6a 8a b6 7b 6e 8c 1e  f5 58 f6 00 83 03 f2 58
+0cf1:          |  |     b2 ae e9 19 da 20 3f c1  d1 b6 b6 1f 72 d4 8b 00
+0d01:          |  |     d1 01 7c 75 35 ea bd c9  d3 9a 97 de 42 1d f9 93
+0d11:          |  |     9c ce 08 f9 92 36 ad 54  1f 8d 74 00 d5 64 a3 8d
+0d21:          |  |     fe 09 d9 ae e3 2f 35 86  36 a3 57 f8 31 74 49 0c
+0d31:          |  |     c7 53 4a 53 8b 87 41 c2  9f 67 10 2f 04 02 aa 31
+0d41:          |  |     5b aa b5 ee bd 33 d2 7a  03 8e ce be 04 5a 3e cf
+0d51:          |  |     b6 ca 48 1c 19 5d 34 4d  8a f6 2e bd ed cb da 88
+0d61:          |  |     8a 36 a7 ad 44 77 6a 7c  c4 c2 5b f3 66 28 b2 7d
+0d71:          |  |     33 e3 2d b9 c5 46 c8 ec  62 0d fd 3a 55 7c 72 2a
+0d81:          |  |     43 a2 ae fe a8 d3 63 a8  5c de 1b 17 32 b4 be 53
+0d91:          |  |     4c b2 f8 65 aa 01 76 a6  e1 3a 16 77 65 10 d4 a6
+0da1:          |  |     13 ef 49 19 8c 4e 18 b4  bf 0f 6f 38 34 73 5b a0
+0db1:          |  |     31 9c 99 65 df c1 74 72  e2 46 ee e1 01 61 3a 6d
+0dc1:          |  |     31 26 e1 76 11 90 0e 93  97 82 92 14 b1 64 e3 77
+0dd1:          |  |     ac 69 47 aa 1a 41 ff c3  25 b8 37 b3 a2 82 2c f0
+0de1:          |  |     25 67 ae 91 cc 88 3d b0  2f 8d 26 9b 9d fe fe 3e
+0df1:          |  |     ed 15 ac 58 28 8a 8b d1  0e 2c b1 df 31 1d 99 c8
+0e01:          |  |     9f fe c6 10 b1 f7 21 db  c6 d9 79 4c f6 ae d6 3f
+0e11:          |  |     f5 30 80 e9 30 fc 74 2d  c9 13 7a d8 92 b8 4b 50
+0e21:          |  |     bc bb 0d cf 74 1b a7 bc  06 5a a6 c8 88 e5 82 9d
+0e31:          |  |     be 56 ab 12 f7 fc 10 0f  bc 85 ca 52 33 d2 c7 26
+0e41:          |  |     6c ab c5 a1 6d a3 36 b6  cc d6 90 f6 4f b9 b7 5c
+0e51:          |  30 82 05 8d			; SEQUENCE (58d Bytes)
+0e55:          |     30 82 04 75		; SEQUENCE (475 Bytes)
+0e59:          |     |  a0 03			; OPTIONAL[0] (3 Bytes)
+0e5b:          |     |  |  02 01		; INTEGER (1 Bytes)
+0e5d:          |     |  |     02
+0e5e:          |     |  02 10			; INTEGER (10 Bytes)
+0e60:          |     |  |  0e 9b 18 8e f9 d0 2d e7  ef db 50 e2 08 40 18 5a
+0e70:          |     |  30 0d			; SEQUENCE (d Bytes)
+0e72:          |     |  |  06 09		; OBJECT_ID (9 Bytes)
+0e74:          |     |  |  |  2a 86 48 86 f7 0d 01 01  0c
+               |     |  |  |     ; 1.2.840.113549.1.1.12 sha384RSA
+0e7d:          |     |  |  05 00		; NULL (0 Bytes)
+0e7f:          |     |  30 65			; SEQUENCE (65 Bytes)
+0e81:          |     |  |  31 0b		; SET (b Bytes)
+0e83:          |     |  |  |  30 09		; SEQUENCE (9 Bytes)
+0e85:          |     |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0e87:          |     |  |  |     |  55 04 06
+               |     |  |  |     |     ; 2.5.4.6 Country/Region (C)
+0e8a:          |     |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+0e8c:          |     |  |  |        55 53                                             ; US
+               |     |  |  |           ; "US"
+0e8e:          |     |  |  31 15		; SET (15 Bytes)
+0e90:          |     |  |  |  30 13		; SEQUENCE (13 Bytes)
+0e92:          |     |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0e94:          |     |  |  |     |  55 04 0a
+               |     |  |  |     |     ; 2.5.4.10 Organization (O)
+0e97:          |     |  |  |     13 0c		; PRINTABLE_STRING (c Bytes)
+0e99:          |     |  |  |        44 69 67 69 43 65 72 74  20 49 6e 63              ; DigiCert Inc
+               |     |  |  |           ; "DigiCert Inc"
+0ea5:          |     |  |  31 19		; SET (19 Bytes)
+0ea7:          |     |  |  |  30 17		; SEQUENCE (17 Bytes)
+0ea9:          |     |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0eab:          |     |  |  |     |  55 04 0b
+               |     |  |  |     |     ; 2.5.4.11 Organizational Unit (OU)
+0eae:          |     |  |  |     13 10		; PRINTABLE_STRING (10 Bytes)
+0eb0:          |     |  |  |        77 77 77 2e 64 69 67 69  63 65 72 74 2e 63 6f 6d  ; www.digicert.com
+               |     |  |  |           ; "www.digicert.com"
+0ec0:          |     |  |  31 24		; SET (24 Bytes)
+0ec2:          |     |  |     30 22		; SEQUENCE (22 Bytes)
+0ec4:          |     |  |        06 03		; OBJECT_ID (3 Bytes)
+0ec6:          |     |  |        |  55 04 03
+               |     |  |        |     ; 2.5.4.3 Common Name (CN)
+0ec9:          |     |  |        13 1b		; PRINTABLE_STRING (1b Bytes)
+0ecb:          |     |  |           44 69 67 69 43 65 72 74  20 41 73 73 75 72 65 64  ; DigiCert Assured
+0edb:          |     |  |           20 49 44 20 52 6f 6f 74  20 43 41                 ;  ID Root CA
+               |     |  |              ; "DigiCert Assured ID Root CA"
+0ee6:          |     |  30 1e			; SEQUENCE (1e Bytes)
+0ee8:          |     |  |  17 0d		; UTC_TIME (d Bytes)
+0eea:          |     |  |  |  32 32 30 38 30 31 30 30  30 30 30 30 5a           ; 220801000000Z
+               |     |  |  |     ;  7/31/2022 5:00 PM
+0ef7:          |     |  |  17 0d		; UTC_TIME (d Bytes)
+0ef9:          |     |  |     33 31 31 31 30 39 32 33  35 39 35 39 5a           ; 311109235959Z
+               |     |  |        ;  11/9/2031 4:59 PM
+0f06:          |     |  30 62			; SEQUENCE (62 Bytes)
+0f08:          |     |  |  31 0b		; SET (b Bytes)
+0f0a:          |     |  |  |  30 09		; SEQUENCE (9 Bytes)
+0f0c:          |     |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0f0e:          |     |  |  |     |  55 04 06
+               |     |  |  |     |     ; 2.5.4.6 Country/Region (C)
+0f11:          |     |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+0f13:          |     |  |  |        55 53                                             ; US
+               |     |  |  |           ; "US"
+0f15:          |     |  |  31 15		; SET (15 Bytes)
+0f17:          |     |  |  |  30 13		; SEQUENCE (13 Bytes)
+0f19:          |     |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0f1b:          |     |  |  |     |  55 04 0a
+               |     |  |  |     |     ; 2.5.4.10 Organization (O)
+0f1e:          |     |  |  |     13 0c		; PRINTABLE_STRING (c Bytes)
+0f20:          |     |  |  |        44 69 67 69 43 65 72 74  20 49 6e 63              ; DigiCert Inc
+               |     |  |  |           ; "DigiCert Inc"
+0f2c:          |     |  |  31 19		; SET (19 Bytes)
+0f2e:          |     |  |  |  30 17		; SEQUENCE (17 Bytes)
+0f30:          |     |  |  |     06 03		; OBJECT_ID (3 Bytes)
+0f32:          |     |  |  |     |  55 04 0b
+               |     |  |  |     |     ; 2.5.4.11 Organizational Unit (OU)
+0f35:          |     |  |  |     13 10		; PRINTABLE_STRING (10 Bytes)
+0f37:          |     |  |  |        77 77 77 2e 64 69 67 69  63 65 72 74 2e 63 6f 6d  ; www.digicert.com
+               |     |  |  |           ; "www.digicert.com"
+0f47:          |     |  |  31 21		; SET (21 Bytes)
+0f49:          |     |  |     30 1f		; SEQUENCE (1f Bytes)
+0f4b:          |     |  |        06 03		; OBJECT_ID (3 Bytes)
+0f4d:          |     |  |        |  55 04 03
+               |     |  |        |     ; 2.5.4.3 Common Name (CN)
+0f50:          |     |  |        13 18		; PRINTABLE_STRING (18 Bytes)
+0f52:          |     |  |           44 69 67 69 43 65 72 74  20 54 72 75 73 74 65 64  ; DigiCert Trusted
+0f62:          |     |  |           20 52 6f 6f 74 20 47 34                           ;  Root G4
+               |     |  |              ; "DigiCert Trusted Root G4"
+0f6a:          |     |  30 82 02 22		; SEQUENCE (222 Bytes)
+0f6e:          |     |  |  30 0d		; SEQUENCE (d Bytes)
+0f70:          |     |  |  |  06 09		; OBJECT_ID (9 Bytes)
+0f72:          |     |  |  |  |  2a 86 48 86 f7 0d 01 01  01
+               |     |  |  |  |     ; 1.2.840.113549.1.1.1 RSA (RSA_SIGN)
+0f7b:          |     |  |  |  05 00		; NULL (0 Bytes)
+0f7d:          |     |  |  03 82 02 0f		; BIT_STRING (20f Bytes)
+0f81:          |     |  |     00
+0f82:          |     |  |     30 82 02 0a	; SEQUENCE (20a Bytes)
+0f86:          |     |  |        02 82 02 01	; INTEGER (201 Bytes)
+0f8a:          |     |  |        |  00
+0f8b:          |     |  |        |  bf e6 90 73 68 de bb e4  5d 4a 3c 30 22 30 69 33
+0f9b:          |     |  |        |  ec c2 a7 25 2e c9 21 3d  f2 8a d8 59 c2 e1 29 a7
+0fab:          |     |  |        |  3d 58 ab 76 9a cd ae 7b  1b 84 0d c4 30 1f f3 1b
+0fbb:          |     |  |        |  a4 38 16 eb 56 c6 97 6d  1d ab b2 79 f2 ca 11 d2
+0fcb:          |     |  |        |  e4 5f d6 05 3c 52 0f 52  1f c6 9e 15 a5 7e be 9f
+0fdb:          |     |  |        |  a9 57 16 59 55 72 af 68  93 70 c2 b2 ba 75 99 6a
+0feb:          |     |  |        |  73 32 94 d1 10 44 10 2e  df 82 f3 07 84 e6 74 3b
+0ffb:          |     |  |        |  6d 71 e2 2d 0c 1b ee 20  d5 c9 20 1d 63 29 2d ce
+100b:          |     |  |        |  ec 5e 4e c8 93 f8 21 61  9b 34 eb 05 c6 5e ec 5b
+101b:          |     |  |        |  1a bc eb c9 cf cd ac 34  40 5f b1 7a 66 ee 77 c8
+102b:          |     |  |        |  48 a8 66 57 57 9f 54 58  8e 0c 2b b7 4f a7 30 d9
+103b:          |     |  |        |  56 ee ca 7b 5d e3 ad c9  4f 5e e5 35 e7 31 cb da
+104b:          |     |  |        |  93 5e dc 8e 8f 80 da b6  91 98 40 90 79 c3 78 c7
+105b:          |     |  |        |  b6 b1 c4 b5 6a 18 38 03  10 8d d8 d4 37 a4 2e 05
+106b:          |     |  |        |  7d 88 f5 82 3e 10 91 70  ab 55 82 41 32 d7 db 04
+107b:          |     |  |        |  73 2a 6e 91 01 7c 21 4c  d4 bc ae 1b 03 75 5d 78
+108b:          |     |  |        |  66 d9 3a 31 44 9a 33 40  bf 08 d7 5a 49 a4 c2 e6
+109b:          |     |  |        |  a9 a0 67 dd a4 27 bc a1  4f 39 b5 11 58 17 f7 24
+10ab:          |     |  |        |  5c 46 8f 64 f7 c1 69 88  76 98 76 3d 59 5d 42 76
+10bb:          |     |  |        |  87 89 97 69 7a 48 f0 e0  a2 12 1b 66 9a 74 ca de
+10cb:          |     |  |        |  4b 1e e7 0e 63 ae e6 d4  ef 92 92 3a 9e 3d dc 00
+10db:          |     |  |        |  e4 45 25 89 b6 9a 44 19  2b 7e c0 94 b4 d2 61 6d
+10eb:          |     |  |        |  eb 33 d9 c5 df 4b 04 00  cc 7d 1c 95 c3 8f f7 21
+10fb:          |     |  |        |  b2 b2 11 b7 bb 7f f2 d5  8c 70 2c 41 60 aa b1 63
+110b:          |     |  |        |  18 44 95 1a 76 62 7e f6  80 b0 fb e8 64 a6 33 d1
+111b:          |     |  |        |  89 07 e1 bd b7 e6 43 a4  18 b8 a6 77 01 e1 0f 94
+112b:          |     |  |        |  0c 21 1d b2 54 29 25 89  6c e5 0e 52 51 47 74 be
+113b:          |     |  |        |  26 ac b6 41 75 de 7a ac  5f 8d 3f c9 bc d3 41 11
+114b:          |     |  |        |  12 5b e5 10 50 eb 31 c5  ca 72 16 22 09 df 7c 4c
+115b:          |     |  |        |  75 3f 63 ec 21 5f c4 20  51 6b 6f b1 ab 86 8b 4f
+116b:          |     |  |        |  c2 d6 45 5f 9d 20 fc a1  1e c5 c0 8f a2 b1 7e 0a
+117b:          |     |  |        |  26 99 f5 e4 69 2f 98 1d  2d f5 d9 a9 b2 1d e5 1b
+118b:          |     |  |        02 03		; INTEGER (3 Bytes)
+118d:          |     |  |           01 00 01
+1190:          |     |  a3 82 01 3a		; OPTIONAL[3] (13a Bytes)
+1194:          |     |     30 82 01 36		; SEQUENCE (136 Bytes)
+1198:          |     |        30 0f		; SEQUENCE (f Bytes)
+119a:          |     |        |  06 03		; OBJECT_ID (3 Bytes)
+119c:          |     |        |  |  55 1d 13
+               |     |        |  |     ; 2.5.29.19 Basic Constraints
+119f:          |     |        |  01 01		; BOOL (1 Bytes)
+11a1:          |     |        |  |  ff
+11a2:          |     |        |  04 05		; OCTET_STRING (5 Bytes)
+11a4:          |     |        |     30 03	; SEQUENCE (3 Bytes)
+11a6:          |     |        |        01 01	; BOOL (1 Bytes)
+11a8:          |     |        |           ff
+11a9:          |     |        30 1d		; SEQUENCE (1d Bytes)
+11ab:          |     |        |  06 03		; OBJECT_ID (3 Bytes)
+11ad:          |     |        |  |  55 1d 0e
+               |     |        |  |     ; 2.5.29.14 Subject Key Identifier
+11b0:          |     |        |  04 16		; OCTET_STRING (16 Bytes)
+11b2:          |     |        |     04 14	; OCTET_STRING (14 Bytes)
+11b4:          |     |        |        ec d7 e3 82 d2 71 5d 64  4c df 2e 67 3f e7 ba 98  ; .....q]dL..g?...
+11c4:          |     |        |        ae 1c 0f 4f                                       ; ...O
+11c8:          |     |        30 1f		; SEQUENCE (1f Bytes)
+11ca:          |     |        |  06 03		; OBJECT_ID (3 Bytes)
+11cc:          |     |        |  |  55 1d 23
+               |     |        |  |     ; 2.5.29.35 Authority Key Identifier
+11cf:          |     |        |  04 18		; OCTET_STRING (18 Bytes)
+11d1:          |     |        |     30 16	; SEQUENCE (16 Bytes)
+11d3:          |     |        |        80 14	; CONTEXT_SPECIFIC[0] (14 Bytes)
+11d5:          |     |        |           45 eb a2 af f4 92 cb 82  31 2d 51 8b a7 a7 21 9d  ; E.......1-Q...!.
+11e5:          |     |        |           f3 6d c8 0f                                       ; .m..
+11e9:          |     |        30 0e		; SEQUENCE (e Bytes)
+11eb:          |     |        |  06 03		; OBJECT_ID (3 Bytes)
+11ed:          |     |        |  |  55 1d 0f
+               |     |        |  |     ; 2.5.29.15 Key Usage
+11f0:          |     |        |  01 01		; BOOL (1 Bytes)
+11f2:          |     |        |  |  ff
+11f3:          |     |        |  04 04		; OCTET_STRING (4 Bytes)
+11f5:          |     |        |     03 02	; BIT_STRING (2 Bytes)
+11f7:          |     |        |        01
+11f8:          |     |        |        86
+11f9:          |     |        30 79		; SEQUENCE (79 Bytes)
+11fb:          |     |        |  06 08		; OBJECT_ID (8 Bytes)
+11fd:          |     |        |  |  2b 06 01 05 05 07 01 01
+               |     |        |  |     ; 1.3.6.1.5.5.7.1.1 Authority Information Access
+1205:          |     |        |  04 6d		; OCTET_STRING (6d Bytes)
+1207:          |     |        |     30 6b	; SEQUENCE (6b Bytes)
+1209:          |     |        |        30 24	; SEQUENCE (24 Bytes)
+120b:          |     |        |        |  06 08	; OBJECT_ID (8 Bytes)
+120d:          |     |        |        |  |  2b 06 01 05 05 07 30 01
+               |     |        |        |  |     ; 1.3.6.1.5.5.7.48.1 On-line Certificate Status Protocol
+1215:          |     |        |        |  86 18	; CONTEXT_SPECIFIC[6] (18 Bytes)
+1217:          |     |        |        |     68 74 74 70 3a 2f 2f 6f  63 73 70 2e 64 69 67 69  ; http://ocsp.digi
+1227:          |     |        |        |     63 65 72 74 2e 63 6f 6d                           ; cert.com
+122f:          |     |        |        30 43	; SEQUENCE (43 Bytes)
+1231:          |     |        |           06 08	; OBJECT_ID (8 Bytes)
+1233:          |     |        |           |  2b 06 01 05 05 07 30 02
+               |     |        |           |     ; 1.3.6.1.5.5.7.48.2 Certification Authority Issuer
+123b:          |     |        |           86 37	; CONTEXT_SPECIFIC[6] (37 Bytes)
+123d:          |     |        |              68 74 74 70 3a 2f 2f 63  61 63 65 72 74 73 2e 64  ; http://cacerts.d
+124d:          |     |        |              69 67 69 63 65 72 74 2e  63 6f 6d 2f 44 69 67 69  ; igicert.com/Digi
+125d:          |     |        |              43 65 72 74 41 73 73 75  72 65 64 49 44 52 6f 6f  ; CertAssuredIDRoo
+126d:          |     |        |              74 43 41 2e 63 72 74                              ; tCA.crt
+1274:          |     |        30 45		; SEQUENCE (45 Bytes)
+1276:          |     |        |  06 03		; OBJECT_ID (3 Bytes)
+1278:          |     |        |  |  55 1d 1f
+               |     |        |  |     ; 2.5.29.31 CRL Distribution Points
+127b:          |     |        |  04 3e		; OCTET_STRING (3e Bytes)
+127d:          |     |        |     30 3c	; SEQUENCE (3c Bytes)
+127f:          |     |        |        30 3a	; SEQUENCE (3a Bytes)
+1281:          |     |        |           a0 38	; OPTIONAL[0] (38 Bytes)
+1283:          |     |        |              a0 36	; OPTIONAL[0] (36 Bytes)
+1285:          |     |        |                 86 34	; CONTEXT_SPECIFIC[6] (34 Bytes)
+1287:          |     |        |                    68 74 74 70 3a 2f 2f 63  72 6c 33 2e 64 69 67 69  ; http://crl3.digi
+1297:          |     |        |                    63 65 72 74 2e 63 6f 6d  2f 44 69 67 69 43 65 72  ; cert.com/DigiCer
+12a7:          |     |        |                    74 41 73 73 75 72 65 64  49 44 52 6f 6f 74 43 41  ; tAssuredIDRootCA
+12b7:          |     |        |                    2e 63 72 6c                                       ; .crl
+12bb:          |     |        30 11		; SEQUENCE (11 Bytes)
+12bd:          |     |           06 03		; OBJECT_ID (3 Bytes)
+12bf:          |     |           |  55 1d 20
+               |     |           |     ; 2.5.29.32 Certificate Policies
+12c2:          |     |           04 0a		; OCTET_STRING (a Bytes)
+12c4:          |     |              30 08	; SEQUENCE (8 Bytes)
+12c6:          |     |                 30 06	; SEQUENCE (6 Bytes)
+12c8:          |     |                    06 04	; OBJECT_ID (4 Bytes)
+12ca:          |     |                       55 1d 20 00
+               |     |                          ; 2.5.29.32.0 All issuance policies
+12ce:          |     30 0d			; SEQUENCE (d Bytes)
+12d0:          |     |  06 09			; OBJECT_ID (9 Bytes)
+12d2:          |     |  |  2a 86 48 86 f7 0d 01 01  0c
+               |     |  |     ; 1.2.840.113549.1.1.12 sha384RSA
+12db:          |     |  05 00			; NULL (0 Bytes)
+12dd:          |     03 82 01 01		; BIT_STRING (101 Bytes)
+12e1:          |        00
+12e2:          |        70 a0 bf 43 5c 55 e7 38  5f a0 a3 74 1b 3d b6 16
+12f2:          |        d7 f7 bf 57 07 bd 9a ac  a1 87 2c ec 85 5e a9 1a
+1302:          |        bb 22 f8 87 1a 69 54 22  ed a4 88 77 6d bd 1a 14
+1312:          |        f4 13 4a 7a 2f 2d b7 38  ef f4 ff 80 b9 f8 a1 f7
+1322:          |        f2 72 de 24 bc 52 03 c8  4e d0 2a de fa 2d 56 cf
+1332:          |        f9 f4 f7 ac 30 7a 9a 8b  b2 5e d4 cf d1 43 44 9b
+1342:          |        43 21 eb 96 72 a1 48 b4  99 cb 9d 4f a7 06 03 13
+1352:          |        77 27 44 d4 e7 7f e8 59  a8 f0 bf 2f 0b a6 e9 f2
+1362:          |        34 3c ec f7 03 c7 87 a8  d2 4c 40 19 35 46 6a 69
+1372:          |        54 b0 b8 a1 56 8e ec a4  d5 3d e8 b1 dc fd 1c d8
+1382:          |        f4 77 5a 5c 54 8c 6f ef  a1 50 3d fc 76 09 68 84
+1392:          |        9f 6f ca db 20 8d 35 60  1c 02 03 cb 20 b0 ac 58
+13a2:          |        a0 0e 40 63 c5 98 22 c1  b2 59 f5 55 6b cf 27 ab
+13b2:          |        6c 76 ce 6f 23 2d f4 7e  71 6a 23 6b 22 ff 12 b8
+13c2:          |        54 2d 27 7e d8 3a d9 f0  b6 87 96 fd 5b d1 5c ac
+13d2:          |        18 c3 4d 9f 73 b7 01 a9  9f 57 aa 5e 28 e2 b9 94
+13e2:          31 82 03 7c			; SET (37c Bytes)
+13e6:             30 82 03 78			; SEQUENCE (378 Bytes)
+13ea:                02 01			; INTEGER (1 Bytes)
+13ec:                |  01
+13ed:                30 7d			; SEQUENCE (7d Bytes)
+13ef:                |  30 69			; SEQUENCE (69 Bytes)
+13f1:                |  |  31 0b		; SET (b Bytes)
+13f3:                |  |  |  30 09		; SEQUENCE (9 Bytes)
+13f5:                |  |  |     06 03		; OBJECT_ID (3 Bytes)
+13f7:                |  |  |     |  55 04 06
+                     |  |  |     |     ; 2.5.4.6 Country/Region (C)
+13fa:                |  |  |     13 02		; PRINTABLE_STRING (2 Bytes)
+13fc:                |  |  |        55 53                                             ; US
+                     |  |  |           ; "US"
+13fe:                |  |  31 17		; SET (17 Bytes)
+1400:                |  |  |  30 15		; SEQUENCE (15 Bytes)
+1402:                |  |  |     06 03		; OBJECT_ID (3 Bytes)
+1404:                |  |  |     |  55 04 0a
+                     |  |  |     |     ; 2.5.4.10 Organization (O)
+1407:                |  |  |     13 0e		; PRINTABLE_STRING (e Bytes)
+1409:                |  |  |        44 69 67 69 43 65 72 74  2c 20 49 6e 63 2e        ; DigiCert, Inc.
+                     |  |  |           ; "DigiCert, Inc."
+1417:                |  |  31 41		; SET (41 Bytes)
+1419:                |  |     30 3f		; SEQUENCE (3f Bytes)
+141b:                |  |        06 03		; OBJECT_ID (3 Bytes)
+141d:                |  |        |  55 04 03
+                     |  |        |     ; 2.5.4.3 Common Name (CN)
+1420:                |  |        13 38		; PRINTABLE_STRING (38 Bytes)
+1422:                |  |           44 69 67 69 43 65 72 74  20 54 72 75 73 74 65 64  ; DigiCert Trusted
+1432:                |  |           20 47 34 20 54 69 6d 65  53 74 61 6d 70 69 6e 67  ;  G4 TimeStamping
+1442:                |  |           20 52 53 41 34 30 39 36  20 53 48 41 32 35 36 20  ;  RSA4096 SHA256 
+1452:                |  |           32 30 32 35 20 43 41 31                           ; 2025 CA1
+                     |  |              ; "DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1"
+145a:                |  02 10			; INTEGER (10 Bytes)
+145c:                |     0a 80 ef 18 4b 8d f1 05  82 d1 c4 76 a7 95 74 68
+146c:                30 0d			; SEQUENCE (d Bytes)
+146e:                |  06 09			; OBJECT_ID (9 Bytes)
+1470:                |  |  60 86 48 01 65 03 04 02  01
+                     |  |     ; 2.16.840.1.101.3.4.2.1 sha256 (sha256NoSign)
+1479:                |  05 00			; NULL (0 Bytes)
+147b:                a0 81 d1			; OPTIONAL[0] (d1 Bytes)
+147e:                |  30 1a			; SEQUENCE (1a Bytes)
+1480:                |  |  06 09		; OBJECT_ID (9 Bytes)
+1482:                |  |  |  2a 86 48 86 f7 0d 01 09  03
+                     |  |  |     ; 1.2.840.113549.1.9.3 Content Type
+148b:                |  |  31 0d		; SET (d Bytes)
+148d:                |  |     06 0b		; OBJECT_ID (b Bytes)
+148f:                |  |        2a 86 48 86 f7 0d 01 09  10 01 04
+                     |  |           ; 1.2.840.113549.1.9.16.1.4
+149a:                |  30 1c			; SEQUENCE (1c Bytes)
+149c:                |  |  06 09		; OBJECT_ID (9 Bytes)
+149e:                |  |  |  2a 86 48 86 f7 0d 01 09  05
+                     |  |  |     ; 1.2.840.113549.1.9.5 Signing Time
+14a7:                |  |  31 0f		; SET (f Bytes)
+14a9:                |  |     17 0d		; UTC_TIME (d Bytes)
+14ab:                |  |        32 36 30 37 32 32 30 30  35 36 34 31 5a           ; 260722005641Z
+                     |  |           ;  7/21/2026 5:56 PM
+14b8:                |  30 2b			; SEQUENCE (2b Bytes)
+14ba:                |  |  06 0b		; OBJECT_ID (b Bytes)
+14bc:                |  |  |  2a 86 48 86 f7 0d 01 09  10 02 0c
+                     |  |  |     ; 1.2.840.113549.1.9.16.2.12
+14c7:                |  |  31 1c		; SET (1c Bytes)
+14c9:                |  |     30 1a		; SEQUENCE (1a Bytes)
+14cb:                |  |        30 18		; SEQUENCE (18 Bytes)
+14cd:                |  |           30 16	; SEQUENCE (16 Bytes)
+14cf:                |  |              04 14	; OCTET_STRING (14 Bytes)
+14d1:                |  |                 dd 62 30 ac 86 0a 2d 30  6b da 38 b1 68 79 52 30  ; .b0...-0k.8.hyR0
+14e1:                |  |                 07 fb 41 7e                                       ; ..A~
+14e5:                |  30 2f			; SEQUENCE (2f Bytes)
+14e7:                |  |  06 09		; OBJECT_ID (9 Bytes)
+14e9:                |  |  |  2a 86 48 86 f7 0d 01 09  04
+                     |  |  |     ; 1.2.840.113549.1.9.4 Message Digest
+14f2:                |  |  31 22		; SET (22 Bytes)
+14f4:                |  |     04 20		; OCTET_STRING (20 Bytes)
+14f6:                |  |        b2 df 72 0b 73 c5 d1 bd  eb 33 38 bc f5 06 aa 14  ; ..r.s....38.....
+1506:                |  |        a7 14 89 90 47 17 bc 7a  c5 6d 2c 3e 1a 8c 0a 1c  ; ....G..z.m,>....
+1516:                |  30 37			; SEQUENCE (37 Bytes)
+1518:                |     06 0b		; OBJECT_ID (b Bytes)
+151a:                |     |  2a 86 48 86 f7 0d 01 09  10 02 2f
+                     |     |     ; 1.2.840.113549.1.9.16.2.47
+1525:                |     31 28		; SET (28 Bytes)
+1527:                |        30 26		; SEQUENCE (26 Bytes)
+1529:                |           30 24		; SEQUENCE (24 Bytes)
+152b:                |              30 22	; SEQUENCE (22 Bytes)
+152d:                |                 04 20	; OCTET_STRING (20 Bytes)
+152f:                |                    4a a0 3f a2 2c d7 5c 84  c5 5c 93 8f 82 8e 67 6b  ; J.?.,.\..\....gk
+153f:                |                    9c ae ca b3 3f e3 6d 26  9a a3 34 f1 46 11 0a 33  ; ....?.m&..4.F..3
+154f:                30 0d			; SEQUENCE (d Bytes)
+1551:                |  06 09			; OBJECT_ID (9 Bytes)
+1553:                |  |  2a 86 48 86 f7 0d 01 01  01
+                     |  |     ; 1.2.840.113549.1.1.1 RSA (RSA_SIGN)
+155c:                |  05 00			; NULL (0 Bytes)
+155e:                04 82 02 00		; OCTET_STRING (200 Bytes)
+1562:                   1e c5 28 d3 89 45 8e 81  32 57 66 03 84 49 fe b5  ; ..(..E..2Wf..I..
+1572:                   2a 00 1a dd 3f e9 2c a3  e1 ad 22 b7 14 44 f8 ab  ; *...?.,..."..D..
+1582:                   bc fb 1f 0d 3c 8a 98 7d  9e 01 33 b0 7e 22 74 83  ; ....<..}..3.~"t.
+1592:                   14 2b 9d 14 fe 18 48 62  23 f2 a3 57 0c e7 56 b0  ; .+....Hb#..W..V.
+15a2:                   68 da 52 5a 25 d1 d5 2c  fe 68 5b 19 05 f9 99 9e  ; h.RZ%..,.h[.....
+15b2:                   9f d5 a2 40 b6 0d 18 b1  d4 9c 83 25 50 b8 fd ca  ; ...@.......%P...
+15c2:                   8d 31 98 01 c0 57 49 37  fd c7 9d 8c 74 91 ac 66  ; .1...WI7....t..f
+15d2:                   0a a6 62 41 cb 64 31 0c  1e d6 49 7c cf ec 51 64  ; ..bA.d1...I|..Qd
+15e2:                   51 c8 af 6f b4 05 83 c9  af 21 99 69 ed d5 de 7a  ; Q..o.....!.i...z
+15f2:                   88 f0 48 b6 2a b9 1c 84  5e 4d b6 be 6a ab 58 72  ; ..H.*...^M..j.Xr
+1602:                   1d ed f4 74 f8 66 fd c4  4d 39 20 a5 ed 88 9f ed  ; ...t.f..M9 .....
+1612:                   49 f3 49 ea ef 4e 62 82  b6 f3 b5 b3 75 6c 42 ac  ; I.I..Nb.....ulB.
+1622:                   cb f2 e0 13 d3 19 9e 5c  81 46 a6 66 06 b4 48 41  ; .......\.F.f..HA
+1632:                   15 2c d3 60 09 ab 2e d0  fb 42 23 b7 d9 b0 2c e3  ; .,.`.....B#...,.
+1642:                   59 8a 5d ee 60 34 90 cf  49 1d 5a 45 72 be 4f 03  ; Y.].`4..I.ZEr.O.
+1652:                   9c 0c 1c d7 4a 8f d4 8b  f8 e2 e3 46 76 2e e3 a8  ; ....J......Fv...
+1662:                   0a e5 ec 66 37 ca f0 38  e5 11 b0 7d a5 87 98 e9  ; ...f7..8...}....
+1672:                   5f 88 ce 12 a3 6a f8 62  4f 84 f0 14 d9 7e 88 be  ; _....j.bO....~..
+1682:                   3c e3 17 db 39 21 f6 80  f0 e8 ae ac 19 d4 82 1f  ; <...9!..........
+1692:                   f1 5e cc 3f 81 5f 3b e8  2b 09 0d cd 31 5d 5c 2c  ; .^.?._;.+...1]\,
+16a2:                   55 55 f5 b9 b4 74 60 54  78 c9 e1 f8 58 ae 62 69  ; UU...t`Tx...X.bi
+16b2:                   d8 21 e2 b7 6c a5 09 0d  7d c7 e8 c4 0a 42 e7 6b  ; .!..l...}....B.k
+16c2:                   4e 45 20 3d 07 09 66 a8  ad 1f 47 25 dc fb 21 eb  ; NE =..f...G%..!.
+16d2:                   cc f7 7b 29 2d a1 e6 3f  13 c1 d4 61 d2 f4 15 28  ; ..{)-..?...a...(
+16e2:                   7c 29 6d a6 db ee a6 43  a8 44 15 26 32 d9 89 f3  ; |)m....C.D.&2...
+16f2:                   87 b7 9e 48 44 99 e5 c0  f5 ea fe bc d7 82 6e 5b  ; ...HD.........n[
+1702:                   ba eb b7 c7 f4 4f 70 38  52 63 ce 4c f6 8f 4d 0d  ; .....Op8Rc.L..M.
+1712:                   1b 18 14 c7 27 bf 7b ff  e4 31 eb 75 50 91 87 5d  ; ....'.{..1.uP..]
+1722:                   bf e9 26 60 5b 50 74 0b  7f c7 97 b4 6d 06 2b 87  ; ..&`[Pt.....m.+.
+1732:                   ef 3a 78 ef f8 31 eb 32  32 86 a7 c0 08 56 02 a8  ; .:x..1.22....V..
+1742:                   22 d8 53 a2 01 ce a6 9f  b0 65 06 a3 54 4c 4f c9  ; ".S......e..TLO.
+1752:                   f3 de d0 2a 7f d0 35 41  e3 5c 1c bb 4c 6d 08 7a  ; ...*..5A.\..Lm.z
+
+Computed Hash: c05740e43c90e0388500ec1e5d37824b25a7f7b814f0ee162fb2edee7b4f0184
+No Recipient
+Computed Hash: c05740e43c90e0388500ec1e5d37824b25a7f7b814f0ee162fb2edee7b4f0184
+
+Certificates:
+================ Begin Nesting Level 1 ================
+Element 0:
+X509 Certificate:
+Version: 3
+Serial Number: 1818ba045bacdaa54bf4d01ae59ac085
+Signature Algorithm:
+    Algorithm ObjectId: 1.2.840.113549.1.1.5 sha1RSA
+    Algorithm Parameters:
+    05 00
+Issuer:
+    CN=WDKTestCert cvgsc,134289703430450826
+  Name Hash(sha1): 7267bab9a774e3f346989a52b8ec0200e5702929
+  Name Hash(md5): 2169547058ff0e2f4c6a69244baabacc
+
+ NotBefore: 7/19/2026 2:32 PM
+ NotAfter: 7/18/2036 5:00 PM
+
+Subject:
+    CN=WDKTestCert cvgsc,134289703430450826
+  Name Hash(sha1): 7267bab9a774e3f346989a52b8ec0200e5702929
+  Name Hash(md5): 2169547058ff0e2f4c6a69244baabacc
+
+Public Key Algorithm:
+    Algorithm ObjectId: 1.2.840.113549.1.1.1 RSA
+    Algorithm Parameters:
+    05 00
+Public Key Length: 2048 bits
+Public Key: UnusedBits = 0
+    0000  30 82 01 0a 02 82 01 01  00 c5 36 df d6 88 28 61
+    0010  e4 73 5e e8 cf a1 d5 84  59 37 cc 81 27 d9 d6 12
+    0020  aa c8 76 e3 0d eb 84 2c  a8 1d 00 32 51 7e f7 fb
+    0030  13 25 6b 30 39 e6 b4 a4  0e c3 cc df 5e 2e 7d 66
+    0040  04 59 aa 4c f2 28 fa c4  27 a3 1c f2 8d d7 2f bc
+    0050  c9 7f f3 d3 df 4e c5 4e  42 4f b7 0e 56 54 d5 a8
+    0060  be 00 07 d6 f9 e8 32 b7  80 a8 91 ee f7 de d7 0f
+    0070  47 99 8a 3f b8 4a 2c a6  94 26 ed 11 97 5b 50 bf
+    0080  23 34 44 ff ee 04 bd 79  c4 8a 3c c6 11 aa 89 2b
+    0090  c8 c9 52 2e 47 80 e5 db  aa 2e ea 5d fb e4 24 25
+    00a0  cf 69 4c e5 96 00 2d 39  d6 31 7e a3 9b b6 43 d9
+    00b0  76 39 fc da a5 dc 72 13  85 31 8a 1e b5 68 90 0b
+    00c0  4b d9 5c bb f1 94 9d 56  13 49 f0 16 77 17 fd c3
+    00d0  51 42 e3 27 d4 12 09 ee  ab d7 0c d8 f1 02 16 54
+    00e0  d1 9b 2a ec 68 d9 dc 25  27 ac a0 d1 70 50 f6 ba
+    00f0  d1 31 6f b5 36 c7 37 3c  3a a1 03 47 ae b1 59 3f
+    0100  60 56 40 e4 57 a6 53 4f  dd 02 03 01 00 01
+Certificate Extensions: 2
+    2.5.29.15: Flags = 0, Length = 4
+    Key Usage
+        Key Encipherment, Data Encipherment (30)
+
+    2.5.29.37: Flags = 0, Length = c
+    Enhanced Key Usage
+        Code Signing (1.3.6.1.5.5.7.3.3)
+
+Signature Algorithm:
+    Algorithm ObjectId: 1.2.840.113549.1.1.5 sha1RSA
+    Algorithm Parameters:
+    05 00
+Signature: UnusedBits=0
+    0000  7d b4 20 74 73 7f cf d6  b1 25 e9 43 59 06 cb 2f
+    0010  7b be 53 d9 5d 60 f8 41  8c d0 61 3e 5f 21 6c c2
+    0020  db 4a b6 01 8c e2 09 35  de 71 40 49 86 23 cb 94
+    0030  57 5f a3 c5 42 88 8b e7  d7 de ee 05 d2 ba 1b 8b
+    0040  81 1a c0 67 08 a0 f7 fd  0e 08 7c 7e a3 83 8c f8
+    0050  86 49 6e 99 08 e4 ba a2  ff 53 a1 7f 8c e9 40 66
+    0060  cb 86 20 47 b8 1f ac 3f  d4 6e d2 90 ed ac 30 5a
+    0070  55 71 d2 d5 ee d0 0c 92  78 35 41 37 9c 4e 61 06
+    0080  7e 78 88 47 61 86 f3 db  ef b4 ec 30 34 05 a4 6e
+    0090  24 0f 45 46 50 38 e6 4a  f3 69 ba 12 5a 5c f3 28
+    00a0  5d cc 64 56 0b d2 db 73  31 40 d4 7c ef f3 5b 61
+    00b0  a0 c1 c1 75 67 16 b4 e0  49 83 29 bc e3 4a bf 8c
+    00c0  06 20 18 5f c0 4a 95 ef  d3 cb 09 67 1a 3c 32 b7
+    00d0  95 06 3d 7b d6 9f 8b 2f  d4 ef 1c 19 32 d4 f7 33
+    00e0  39 1e 03 d4 aa 16 b9 3e  52 bf 22 0c c2 29 d5 80
+    00f0  ff 09 48 c3 4a 36 d3 7c  a8 84 ee f5 e5 1f f6 98
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Key Id Hash(rfc-sha1): 751cf751a983c408d3bd10c1e8325b4426bb88fa
+Key Id Hash(sha1): c9d355f9bbbe0e9ea396ab1672b12ea8b97b6c42
+Key Id Hash(bcrypt-sha1): f83cfd8feed964fce06f7eedc527fcd1ba563422
+Key Id Hash(bcrypt-sha256): 1e5f1491236b467f16543cfcfb2e33560545df94fc8976da29b4d5c121af1fa8
+Key Id Hash(md5): 80f92c3676c8e308c4508c46a480f8d1
+Key Id Hash(sha256): 78f897cd87f5e039f74573ca1fe7c264474d6143b364233012ad8566d37267c2
+Key Id Hash(pin-sha256): 9p79+hlP2hJL7gXvxUGttwMwyEtgn6PxWXVxL5+hklA=
+Key Id Hash(pin-sha256-hex): f69efdfa194fda124bee05efc541adb70330c84b609fa3f15975712f9fa19250
+Cert Hash(md5): bf666fe15c4a595668ec436749e5f76b
+Cert Hash(sha1): 9faccb3e846afa6e4c9c2b9f77a92256848b87db
+Cert Hash(sha256): 0617fd519f5accfc05e7f8761f82c3bddc44b1fbceec01bb0f093faa019eaee8
+Signature Hash: 848d1d74d16a7b3d5cf5970917b2968de98653dc
+----------------  End Nesting Level 1  ----------------
+No CRLs
+CertUtil: -dump command completed successfully.
