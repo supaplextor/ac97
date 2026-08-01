@@ -1,6 +1,6 @@
-# QEMU AC97 Windows driver skeleton (alpha)
+# AC97 Windows driver skeleton (alpha)
 
-This folder contains an expanded Windows x64 driver skeleton for the QEMU AC97 PCI audio controller.
+This folder contains an expanded Windows x64 driver skeleton for the AC97 PCI audio controller.
 
 ## Current skeleton scope
 
