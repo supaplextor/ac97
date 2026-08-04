@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = MEDIA
 ClassGuid   = {4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider    = %ProviderName%
-CatalogFile = ac97qemu.cat
+CatalogFile = ac97.cat
 DriverVer   = 07/16/2026,1.0.0.0
 PnpLockdown = 1
 
@@ -14,7 +14,7 @@ DefaultDestDir = 12
 1 = %DiskName%,,,
 
 [SourceDisksFiles]
-ac97qemu.sys = 1
+ac97.sys = 1
 
 [Manufacturer]
 %ProviderName% = Models,NTamd64.10.0
@@ -27,17 +27,17 @@ ac97qemu.sys = 1
 CopyFiles = DriverCopyFiles
 
 [DriverCopyFiles]
-ac97qemu.sys
+ac97.sys
 
 [Ac97_Install.NT.Services]
-AddService = ac97qemu,0x00000002,Service_Install
+AddService = ac97,0x00000002,Service_Install
 
 [Service_Install]
 DisplayName   = %ServiceName%
 ServiceType   = 1
 StartType     = 3
 ErrorControl  = 1
-ServiceBinary = %12%\ac97qemu.sys
+ServiceBinary = %12%\ac97.sys
 
 [Strings]
 ProviderName   = "ac97"

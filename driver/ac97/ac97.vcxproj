@@ -68,7 +68,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <TargetName>ac97qemu</TargetName>
+    <TargetName>ac97</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
@@ -103,13 +103,13 @@
     </DriverSign>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Inf Include="..\ac97qemu.inf" />
+    <Inf Include="..\ac97.inf" />
   </ItemGroup>
   <ItemGroup>
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ac97qemu.c" />
+    <ClCompile Include="..\ac97.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
