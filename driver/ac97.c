@@ -1,4 +1,5 @@
 #include <ntddk.h>
+#include <ks.h>
 
 #define ICH_REG_X_SR 0x06
 #define ICH_REG_X_CR 0x0b
@@ -44,6 +45,7 @@ typedef struct _AC97_DEVICE_EXTENSION {
     PHYSICAL_ADDRESS BusMasterBasePhysical;
     ULONG BusMasterLength;
     PUCHAR BusMasterBase;
+    UNICODE_STRING AudioInterfaceName;
 } AC97_DEVICE_EXTENSION, *PAC97_DEVICE_EXTENSION;
 
 DRIVER_UNLOAD Ac97Unload;
@@ -441,6 +443,18 @@ Ac97DispatchPnp(_In_ PDEVICE_OBJECT DeviceObject, _Inout_ PIRP Irp)
                 status = Ac97InitializeHardware(extension);
             }
             if (NT_SUCCESS(status)) {
+                if (extension->AudioInterfaceName.Buffer == NULL) {
+                    status = IoRegisterDeviceInterface(
+                        extension->PhysicalDeviceObject,
+                        &KSCATEGORY_AUDIO,
+                        NULL,
+                        &extension->AudioInterfaceName);
+                }
+            }
+            if (NT_SUCCESS(status)) {
+                status = IoSetDeviceInterfaceState(&extension->AudioInterfaceName, TRUE);
+            }
+            if (NT_SUCCESS(status)) {
                 extension->Started = TRUE;
             } else {
                 Ac97UnmapResources(extension);
@@ -453,11 +467,17 @@ Ac97DispatchPnp(_In_ PDEVICE_OBJECT DeviceObject, _Inout_ PIRP Irp)
     }
     case IRP_MN_STOP_DEVICE:
         extension->Started = FALSE;
+        if (extension->AudioInterfaceName.Buffer != NULL) {
+            IoSetDeviceInterfaceState(&extension->AudioInterfaceName, FALSE);
+        }
         Ac97UnmapResources(extension);
         return Ac97DispatchPassThrough(DeviceObject, Irp);
 
     case IRP_MN_SURPRISE_REMOVAL:
         extension->Started = FALSE;
+        if (extension->AudioInterfaceName.Buffer != NULL) {
+            IoSetDeviceInterfaceState(&extension->AudioInterfaceName, FALSE);
+        }
         Ac97UnmapResources(extension);
         return Ac97DispatchPassThrough(DeviceObject, Irp);
 
@@ -466,6 +486,11 @@ Ac97DispatchPnp(_In_ PDEVICE_OBJECT DeviceObject, _Inout_ PIRP Irp)
 
         extension->Removing = TRUE;
         extension->Started = FALSE;
+        if (extension->AudioInterfaceName.Buffer != NULL) {
+            IoSetDeviceInterfaceState(&extension->AudioInterfaceName, FALSE);
+            RtlFreeUnicodeString(&extension->AudioInterfaceName);
+            RtlInitUnicodeString(&extension->AudioInterfaceName, NULL);
+        }
         Ac97UnmapResources(extension);
 
         IoSkipCurrentIrpStackLocation(Irp);
@@ -510,6 +535,7 @@ Ac97AddDevice(_In_ PDRIVER_OBJECT DriverObject, _In_ PDEVICE_OBJECT PhysicalDevi
 
     extension = (PAC97_DEVICE_EXTENSION)deviceObject->DeviceExtension;
     extension->PhysicalDeviceObject = PhysicalDeviceObject;
+    RtlInitUnicodeString(&extension->AudioInterfaceName, NULL);
     extension->LowerDevice = IoAttachDeviceToDeviceStack(deviceObject, PhysicalDeviceObject);
     if (extension->LowerDevice == NULL) {
         IoDeleteDevice(deviceObject);

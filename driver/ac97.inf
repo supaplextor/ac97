@@ -25,6 +25,10 @@ ac97.sys = 1
 
 [Ac97_Install.NT]
 CopyFiles = DriverCopyFiles
+AddReg    = Ac97_AddReg
+
+[Ac97_AddReg]
+HKR,,FriendlyName,,%Ac97DeviceDesc%
 
 [DriverCopyFiles]
 ac97.sys
