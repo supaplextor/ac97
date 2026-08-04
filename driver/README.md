@@ -113,4 +113,4 @@ For production use, replace the self-signed certificate with an EV code-signing 
    - `bcdedit /set testsigning on`
 2. Reboot the guest.
 3. In Device Manager, update the AC97 audio controller driver and point to this folder.
-4. Verify the device binds to **QEMU AC97 Audio Driver**.
+4. Verify the device binds to **AC97 Audio Driver**.
