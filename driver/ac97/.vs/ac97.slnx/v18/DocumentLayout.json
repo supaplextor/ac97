@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11126B12-782F-650A-096E-15AD33B2EE49}|ac97.vcxproj|C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97qemu.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11126B12-782F-650A-096E-15AD33B2EE49}|ac97.vcxproj|C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97qemu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ac97qemu.inf",
+              "DocumentMoniker": "C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97qemu.inf",
+              "RelativeDocumentMoniker": "..\\ac97qemu.inf",
+              "ToolTip": "C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97qemu.inf",
+              "RelativeToolTip": "..\\ac97qemu.inf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
+              "WhenOpened": "2026-07-19T23:36:52.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ac97qemu.c",
+              "DocumentMoniker": "C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97qemu.c",
+              "RelativeDocumentMoniker": "..\\ac97qemu.c",
+              "ToolTip": "C:\\Users\\cvgsc\\source\\repos\\ac97\\driver\\ac97qemu.c",
+              "RelativeToolTip": "..\\ac97qemu.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-07-19T23:36:52.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

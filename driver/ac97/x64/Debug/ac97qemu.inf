@@ -1,0 +1,46 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = MEDIA
+ClassGuid   = {4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider    = %ProviderName%
+CatalogFile = ac97qemu.cat
+DriverVer = 07/19/2026,15.53.55.537
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskName%,,,
+
+[SourceDisksFiles]
+ac97qemu.sys = 1
+
+[Manufacturer]
+%ProviderName% = Models,NTamd64.10.0
+
+[Models.NTamd64.10.0]
+%Ac97DeviceDesc% = Ac97_Install,PCI\VEN_8086&DEV_2415
+%Ac97DeviceDesc% = Ac97_Install,PCI\VEN_8086&DEV_2425
+
+[Ac97_Install.NT]
+CopyFiles = DriverCopyFiles
+
+[DriverCopyFiles]
+ac97qemu.sys
+
+[Ac97_Install.NT.Services]
+AddService = ac97qemu,0x00000002,Service_Install
+
+[Service_Install]
+DisplayName   = %ServiceName%
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %12%\ac97qemu.sys
+
+[Strings]
+ProviderName   = "ac97"
+DiskName       = "QEMU AC97 Audio Driver Disk"
+Ac97DeviceDesc = "QEMU AC97 Audio Controller"
+ServiceName    = "QEMU AC97 Audio Driver"
