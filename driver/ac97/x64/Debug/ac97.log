@@ -1,0 +1,27 @@
+﻿  Building 'ac97' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\ac97qemu.inf
+  Stamping [Version] section with DriverVer=07/19/2026,15.53.55.537
+  ac97qemu.c
+  ac97.vcxproj -> C:\Users\cvgsc\source\repos\ac97\driver\ac97\x64\Debug\ac97qemu.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\cvgsc\source\repos\ac97\driver\ac97\x64\Debug\ac97qemu.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\cvgsc\source\repos\ac97\driver\ac97\x64\Debug\ac97\ac97qemu.cat
+  Set catalog attribute.
+  WdkVersion: 10.0.28000.0
+  Set catalog attribute.
+  WdkAssemblyVersion: 10.0.28000.1839
+  Done Adding Additional Store
+  Successfully signed: C:\Users\cvgsc\source\repos\ac97\driver\ac97\x64\Debug\ac97\ac97qemu.cat
+  

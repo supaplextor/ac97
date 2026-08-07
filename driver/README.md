@@ -1,6 +1,6 @@
-# QEMU AC97 Windows driver skeleton (alpha)
+# AC97 Windows driver skeleton (alpha)
 
-This folder contains an expanded Windows x64 driver skeleton for the QEMU AC97 PCI audio controller.
+This folder contains an expanded Windows x64 driver skeleton for the AC97 PCI audio controller.
 
 ## Current skeleton scope
 
@@ -54,9 +54,9 @@ If you are building from the existing source files in this folder rather than a 
 1. Open Visual Studio 2026.
 2. Select **Create a new project**, search for **"Kernel Mode Driver, Empty (KMDF)"**, and click **Next**.
    - If you do not need KMDF, choose **"Empty WDM Driver"** instead. This driver uses WDM directly.
-3. Set the project name (e.g. `ac97qemu`) and choose a location, then click **Create**.
-4. In **Solution Explorer**, right-click **Source Files → Add → Existing Item** and add `ac97qemu.c`.
-5. Add `ac97qemu.inf` to the project's **Driver Files** filter (right-click **Driver Files → Add → Existing Item**).
+3. Set the project name (e.g. `ac97`) and choose a location, then click **Create**.
+4. In **Solution Explorer**, right-click **Source Files → Add → Existing Item** and add `ac97.c`.
+5. Add `ac97.inf` to the project's **Driver Files** filter (right-click **Driver Files → Add → Existing Item**).
 
 ### Step 4 — Configure project properties
 
@@ -83,9 +83,9 @@ Build → Build Solution   (Ctrl+Shift+B)
 On success the output directory (e.g. `x64\Release\`) will contain:
 
 ```
-ac97qemu.sys   ← kernel driver binary
-ac97qemu.inf   ← installation manifest
-ac97qemu.cat   ← security catalog (if Inf2Cat ran)
+ac97.sys   ← kernel driver binary
+ac97.inf   ← installation manifest
+ac97.cat   ← security catalog (if Inf2Cat ran)
 ```
 
 If you see **error MSB8040** (Spectre-mitigated libraries required), install them via the VS installer under **Individual components → MSVC … Spectre-mitigated libs**.
@@ -99,8 +99,8 @@ If you see **error MSB8040** (Spectre-mitigated libraries required), install the
 makecert -r -pe -ss TestCertStore -n "CN=AC97TestCert" AC97TestCert.cer
 
 :: Sign the .sys and .cat
-signtool sign /s TestCertStore /n "AC97TestCert" /t http://timestamp.digicert.com ac97qemu.sys
-signtool sign /s TestCertStore /n "AC97TestCert" /t http://timestamp.digicert.com ac97qemu.cat
+signtool sign /s TestCertStore /n "AC97TestCert" /t http://timestamp.digicert.com ac97.sys
+signtool sign /s TestCertStore /n "AC97TestCert" /t http://timestamp.digicert.com ac97.cat
 ```
 
 > `makecert` and `signtool` are shipped with the WDK/SDK and are available in a **Developer Command Prompt for VS 2026**.
@@ -113,4 +113,4 @@ For production use, replace the self-signed certificate with an EV code-signing 
    - `bcdedit /set testsigning on`
 2. Reboot the guest.
 3. In Device Manager, update the AC97 audio controller driver and point to this folder.
-4. Verify the device binds to **QEMU AC97 Audio Driver**.
+4. Verify the device binds to **AC97 Audio Driver**.

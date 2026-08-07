@@ -1,0 +1,1 @@
+C:\Users\cvgsc\source\repos\ac97\driver\ac97\x64\Debug\ac97qemu.sys
